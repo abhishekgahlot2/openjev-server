@@ -1,0 +1,16 @@
+# One GPU: vLLM serves the weights, openjev-server exposes the decision API on :3000.
+services:
+  vllm:
+    image: vllm/vllm-openai:v0.29.0
+    command: >
+      --model openjev/openjev-FP8 --served-model-name qwen --port 8000 --enable-prefix-caching --max-model-len 16384
+      --gpu-memory-utilization 0.90 --limit-mm-per-prompt '{"image":1}' --trust-remote-code --max-num-seqs 64
+      --max-logprobs 64 --gdn-prefill-backend triton --quantization fp8
+    deploy: { resources: { reservations: { devices: [{ driver: nvidia, count: 1, capabilities: [gpu] }] } } }
+    volumes: ["~/.cache/huggingface:/root/.cache/huggingface"]
+  openjev:
+    build: .
+    depends_on: [vllm]
+    ports: ["3000:3000"]
+    environment:
+      OPENJEV_TOKEN: ${OPENJEV_TOKEN:-}

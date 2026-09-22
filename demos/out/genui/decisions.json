@@ -1,0 +1,800 @@
+[
+ {
+  "case": "support_dashboard",
+  "request": "Dashboard for my support team lead: ticket backlog by priority, who is overloaded, and response times over the last two weeks.",
+  "answers": {
+   "domain": {
+    "type": "choice",
+    "choice": "support",
+    "probabilities": {
+     "support": 0.9994,
+     "product": 0.0,
+     "finance": 0.0,
+     "sales": 0.0,
+     "operations": 0.0005,
+     "marketing": 0.0
+    },
+    "confidence": 0.9993
+   },
+   "layout": {
+    "type": "choice",
+    "choice": "sidebar_dashboard",
+    "probabilities": {
+     "sidebar_dashboard": 0.4997,
+     "topnav_dashboard": 0.4997,
+     "table_page": 0.0004,
+     "review_page": 0.0,
+     "landing": 0.0,
+     "status_page": 0.0001
+    },
+    "confidence": 0.3997
+   },
+   "lead": {
+    "type": "choice",
+    "choice": "open_tickets",
+    "probabilities": {
+     "open_tickets": 0.9972,
+     "median_response": 0.0012,
+     "signups": 0.0001,
+     "mrr": 0.0,
+     "pending_approvals": 0.0013,
+     "pipeline_value": 0.0,
+     "uptime": 0.0001,
+     "conversion_rate": 0.0
+    },
+    "confidence": 0.9968
+   },
+   "chart": {
+    "type": "choice",
+    "choice": "bar_categories",
+    "probabilities": {
+     "line_trend": 0.313,
+     "area_trend": 0.0092,
+     "bar_categories": 0.6529,
+     "donut_share": 0.0222,
+     "uptime_bars": 0.0003,
+     "none": 0.0024
+    },
+    "confidence": 0.5835
+   },
+   "panel": {
+    "type": "choice",
+    "choice": "people_load",
+    "probabilities": {
+     "data_table": 0.0185,
+     "people_load": 0.9792,
+     "activity_feed": 0.0005,
+     "incident_list": 0.0012,
+     "funnel": 0.0006,
+     "plan_cards": 0.0,
+     "review_form": 0.0001
+    },
+    "confidence": 0.9757
+   },
+   "cta": {
+    "type": "noul",
+    "noul": 0.061
+   },
+   "dark": {
+    "type": "noul",
+    "noul": 0.1669
+   },
+   "density": {
+    "type": "score",
+    "score": 1.7701,
+    "legend": {
+     "0": "spacious",
+     "1": "balanced",
+     "2": "dense"
+    },
+    "probabilities": {
+     "0": 0.011,
+     "1": 0.2079,
+     "2": 0.7811
+    },
+    "confidence": 0.6552
+   },
+   "tone": {
+    "type": "choice",
+    "choice": "formal",
+    "probabilities": {
+     "playful": 0.0018,
+     "neutral": 0.2099,
+     "formal": 0.7884
+    },
+    "confidence": 0.6826
+   },
+   "accent": {
+    "type": "choice",
+    "choice": "blue",
+    "probabilities": {
+     "zinc": 0.0073,
+     "blue": 0.3355,
+     "green": 0.0165,
+     "violet": 0.0893,
+     "orange": 0.3355,
+     "rose": 0.2158
+    },
+    "confidence": 0.2026
+   }
+  },
+  "decisions": {
+   "domain": "support",
+   "layout": "sidebar_dashboard",
+   "lead": "open_tickets",
+   "chart": "bar_categories",
+   "panel": "people_load",
+   "cta": 0.061,
+   "dark": 0.1669,
+   "density": 1.77,
+   "tone": "formal",
+   "accent": "blue"
+  },
+  "ms": 5396
+ },
+ {
+  "case": "saas_growth",
+  "request": "A growth dashboard for our SaaS: signups, activation, monthly recurring revenue trend and the top acquisition channels.",
+  "answers": {
+   "domain": {
+    "type": "choice",
+    "choice": "product",
+    "probabilities": {
+     "support": 0.0,
+     "product": 0.9971,
+     "finance": 0.0,
+     "sales": 0.0001,
+     "operations": 0.0,
+     "marketing": 0.0028
+    },
+    "confidence": 0.9965
+   },
+   "layout": {
+    "type": "choice",
+    "choice": "topnav_dashboard",
+    "probabilities": {
+     "sidebar_dashboard": 0.357,
+     "topnav_dashboard": 0.6428,
+     "table_page": 0.0002,
+     "review_page": 0.0,
+     "landing": 0.0,
+     "status_page": 0.0
+    },
+    "confidence": 0.5714
+   },
+   "lead": {
+    "type": "choice",
+    "choice": "mrr",
+    "probabilities": {
+     "open_tickets": 0.0001,
+     "median_response": 0.0,
+     "signups": 0.0247,
+     "mrr": 0.975,
+     "pending_approvals": 0.0,
+     "pipeline_value": 0.0001,
+     "uptime": 0.0,
+     "conversion_rate": 0.0001
+    },
+    "confidence": 0.9714
+   },
+   "chart": {
+    "type": "choice",
+    "choice": "line_trend",
+    "probabilities": {
+     "line_trend": 0.7945,
+     "area_trend": 0.0313,
+     "bar_categories": 0.1576,
+     "donut_share": 0.0112,
+     "uptime_bars": 0.0001,
+     "none": 0.0054
+    },
+    "confidence": 0.7534
+   },
+   "panel": {
+    "type": "choice",
+    "choice": "funnel",
+    "probabilities": {
+     "data_table": 0.2518,
+     "people_load": 0.0044,
+     "activity_feed": 0.0099,
+     "incident_list": 0.0008,
+     "funnel": 0.705,
+     "plan_cards": 0.0277,
+     "review_form": 0.0003
+    },
+    "confidence": 0.6559
+   },
+   "cta": {
+    "type": "noul",
+    "noul": 0.0386
+   },
+   "dark": {
+    "type": "noul",
+    "noul": 0.1669
+   },
+   "density": {
+    "type": "score",
+    "score": 1.5536,
+    "legend": {
+     "0": "spacious",
+     "1": "balanced",
+     "2": "dense"
+    },
+    "probabilities": {
+     "0": 0.0124,
+     "1": 0.4217,
+     "2": 0.5659
+    },
+    "confidence": 0.3303
+   },
+   "tone": {
+    "type": "choice",
+    "choice": "formal",
+    "probabilities": {
+     "playful": 0.04,
+     "neutral": 0.2018,
+     "formal": 0.7582
+    },
+    "confidence": 0.6372
+   },
+   "accent": {
+    "type": "choice",
+    "choice": "green",
+    "probabilities": {
+     "zinc": 0.0004,
+     "blue": 0.0842,
+     "green": 0.8852,
+     "violet": 0.026,
+     "orange": 0.0038,
+     "rose": 0.0004
+    },
+    "confidence": 0.8623
+   }
+  },
+  "decisions": {
+   "domain": "product",
+   "layout": "topnav_dashboard",
+   "lead": "mrr",
+   "chart": "line_trend",
+   "panel": "funnel",
+   "cta": 0.0386,
+   "dark": 0.1669,
+   "density": 1.55,
+   "tone": "formal",
+   "accent": "green"
+  },
+  "ms": 5456
+ },
+ {
+  "case": "expense_approvals",
+  "request": "Internal tool where a finance manager reviews employee expense reports one by one and approves or rejects them.",
+  "answers": {
+   "domain": {
+    "type": "choice",
+    "choice": "finance",
+    "probabilities": {
+     "support": 0.0,
+     "product": 0.0,
+     "finance": 0.9999,
+     "sales": 0.0,
+     "operations": 0.0,
+     "marketing": 0.0
+    },
+    "confidence": 0.9999
+   },
+   "layout": {
+    "type": "choice",
+    "choice": "review_page",
+    "probabilities": {
+     "sidebar_dashboard": 0.0001,
+     "topnav_dashboard": 0.0,
+     "table_page": 0.0021,
+     "review_page": 0.9978,
+     "landing": 0.0,
+     "status_page": 0.0
+    },
+    "confidence": 0.9974
+   },
+   "lead": {
+    "type": "choice",
+    "choice": "pending_approvals",
+    "probabilities": {
+     "open_tickets": 0.0024,
+     "median_response": 0.0002,
+     "signups": 0.0,
+     "mrr": 0.0,
+     "pending_approvals": 0.9971,
+     "pipeline_value": 0.0002,
+     "uptime": 0.0,
+     "conversion_rate": 0.0
+    },
+    "confidence": 0.9967
+   },
+   "chart": {
+    "type": "choice",
+    "choice": "none",
+    "probabilities": {
+     "line_trend": 0.0013,
+     "area_trend": 0.0001,
+     "bar_categories": 0.0213,
+     "donut_share": 0.0017,
+     "uptime_bars": 0.0001,
+     "none": 0.9754
+    },
+    "confidence": 0.9705
+   },
+   "panel": {
+    "type": "choice",
+    "choice": "review_form",
+    "probabilities": {
+     "data_table": 0.1128,
+     "people_load": 0.0002,
+     "activity_feed": 0.0021,
+     "incident_list": 0.0001,
+     "funnel": 0.0008,
+     "plan_cards": 0.0001,
+     "review_form": 0.8839
+    },
+    "confidence": 0.8645
+   },
+   "cta": {
+    "type": "noul",
+    "noul": 0.1904
+   },
+   "dark": {
+    "type": "noul",
+    "noul": 0.0764
+   },
+   "density": {
+    "type": "score",
+    "score": 1.3298,
+    "legend": {
+     "0": "spacious",
+     "1": "balanced",
+     "2": "dense"
+    },
+    "probabilities": {
+     "0": 0.0681,
+     "1": 0.534,
+     "2": 0.3979
+    },
+    "confidence": 0.3009
+   },
+   "tone": {
+    "type": "choice",
+    "choice": "formal",
+    "probabilities": {
+     "playful": 0.001,
+     "neutral": 0.1654,
+     "formal": 0.8337
+    },
+    "confidence": 0.7505
+   },
+   "accent": {
+    "type": "choice",
+    "choice": "green",
+    "probabilities": {
+     "zinc": 0.0074,
+     "blue": 0.3933,
+     "green": 0.4556,
+     "violet": 0.0502,
+     "orange": 0.0502,
+     "rose": 0.0433
+    },
+    "confidence": 0.3467
+   }
+  },
+  "decisions": {
+   "domain": "finance",
+   "layout": "review_page",
+   "lead": "pending_approvals",
+   "chart": "none",
+   "panel": "review_form",
+   "cta": 0.1904,
+   "dark": 0.0764,
+   "density": 1.33,
+   "tone": "formal",
+   "accent": "green"
+  },
+  "ms": 4002
+ },
+ {
+  "case": "pricing",
+  "request": "A page where visitors compare our three pricing plans (Starter, Team, Enterprise) and pick one.",
+  "answers": {
+   "domain": {
+    "type": "choice",
+    "choice": "product",
+    "probabilities": {
+     "support": 0.0002,
+     "product": 0.962,
+     "finance": 0.0002,
+     "sales": 0.0048,
+     "operations": 0.0002,
+     "marketing": 0.0327
+    },
+    "confidence": 0.9543
+   },
+   "layout": {
+    "type": "choice",
+    "choice": "landing",
+    "probabilities": {
+     "sidebar_dashboard": 0.0,
+     "topnav_dashboard": 0.0004,
+     "table_page": 0.0004,
+     "review_page": 0.0,
+     "landing": 0.9992,
+     "status_page": 0.0
+    },
+    "confidence": 0.999
+   },
+   "lead": {
+    "type": "choice",
+    "choice": "signups",
+    "probabilities": {
+     "open_tickets": 0.0003,
+     "median_response": 0.0002,
+     "signups": 0.8051,
+     "mrr": 0.0492,
+     "pending_approvals": 0.0002,
+     "pipeline_value": 0.0063,
+     "uptime": 0.0007,
+     "conversion_rate": 0.1379
+    },
+    "confidence": 0.7773
+   },
+   "chart": {
+    "type": "choice",
+    "choice": "bar_categories",
+    "probabilities": {
+     "line_trend": 0.0002,
+     "area_trend": 0.0001,
+     "bar_categories": 0.8126,
+     "donut_share": 0.0003,
+     "uptime_bars": 0.0001,
+     "none": 0.1867
+    },
+    "confidence": 0.7752
+   },
+   "panel": {
+    "type": "choice",
+    "choice": "plan_cards",
+    "probabilities": {
+     "data_table": 0.0032,
+     "people_load": 0.0009,
+     "activity_feed": 0.0005,
+     "incident_list": 0.0001,
+     "funnel": 0.0021,
+     "plan_cards": 0.9929,
+     "review_form": 0.0004
+    },
+    "confidence": 0.9917
+   },
+   "cta": {
+    "type": "noul",
+    "noul": 0.0658
+   },
+   "dark": {
+    "type": "noul",
+    "noul": 0.136
+   },
+   "density": {
+    "type": "score",
+    "score": 1.0418,
+    "legend": {
+     "0": "spacious",
+     "1": "balanced",
+     "2": "dense"
+    },
+    "probabilities": {
+     "0": 0.0522,
+     "1": 0.8537,
+     "2": 0.094
+    },
+    "confidence": 0.7806
+   },
+   "tone": {
+    "type": "choice",
+    "choice": "formal",
+    "probabilities": {
+     "playful": 0.3629,
+     "neutral": 0.1502,
+     "formal": 0.487
+    },
+    "confidence": 0.2304
+   },
+   "accent": {
+    "type": "choice",
+    "choice": "blue",
+    "probabilities": {
+     "zinc": 0.0033,
+     "blue": 0.6079,
+     "green": 0.1618,
+     "violet": 0.1618,
+     "orange": 0.0578,
+     "rose": 0.0074
+    },
+    "confidence": 0.5295
+   }
+  },
+  "decisions": {
+   "domain": "product",
+   "layout": "landing",
+   "lead": "signups",
+   "chart": "bar_categories",
+   "panel": "plan_cards",
+   "cta": 0.0658,
+   "dark": 0.136,
+   "density": 1.04,
+   "tone": "formal",
+   "accent": "blue"
+  },
+  "ms": 3871
+ },
+ {
+  "case": "ops_status",
+  "request": "A public status page for our API: current incidents, uptime for the last 90 days, and a way to subscribe to updates.",
+  "answers": {
+   "domain": {
+    "type": "choice",
+    "choice": "operations",
+    "probabilities": {
+     "support": 0.0003,
+     "product": 0.0002,
+     "finance": 0.0001,
+     "sales": 0.0001,
+     "operations": 0.9992,
+     "marketing": 0.0001
+    },
+    "confidence": 0.999
+   },
+   "layout": {
+    "type": "choice",
+    "choice": "status_page",
+    "probabilities": {
+     "sidebar_dashboard": 0.0,
+     "topnav_dashboard": 0.0001,
+     "table_page": 0.0,
+     "review_page": 0.0,
+     "landing": 0.0001,
+     "status_page": 0.9998
+    },
+    "confidence": 0.9998
+   },
+   "lead": {
+    "type": "choice",
+    "choice": "uptime",
+    "probabilities": {
+     "open_tickets": 0.0021,
+     "median_response": 0.0001,
+     "signups": 0.0001,
+     "mrr": 0.0,
+     "pending_approvals": 0.0,
+     "pipeline_value": 0.0,
+     "uptime": 0.9977,
+     "conversion_rate": 0.0
+    },
+    "confidence": 0.9973
+   },
+   "chart": {
+    "type": "choice",
+    "choice": "uptime_bars",
+    "probabilities": {
+     "line_trend": 0.0058,
+     "area_trend": 0.0013,
+     "bar_categories": 0.0004,
+     "donut_share": 0.0001,
+     "uptime_bars": 0.9903,
+     "none": 0.0021
+    },
+    "confidence": 0.9884
+   },
+   "panel": {
+    "type": "choice",
+    "choice": "incident_list",
+    "probabilities": {
+     "data_table": 0.0018,
+     "people_load": 0.0001,
+     "activity_feed": 0.0067,
+     "incident_list": 0.9912,
+     "funnel": 0.0001,
+     "plan_cards": 0.0001,
+     "review_form": 0.0
+    },
+    "confidence": 0.9897
+   },
+   "cta": {
+    "type": "noul",
+    "noul": 0.3629
+   },
+   "dark": {
+    "type": "noul",
+    "noul": 0.2031
+   },
+   "density": {
+    "type": "score",
+    "score": 1.0,
+    "legend": {
+     "0": "spacious",
+     "1": "balanced",
+     "2": "dense"
+    },
+    "probabilities": {
+     "0": 0.0903,
+     "1": 0.8195,
+     "2": 0.0903
+    },
+    "confidence": 0.7292
+   },
+   "tone": {
+    "type": "choice",
+    "choice": "neutral",
+    "probabilities": {
+     "playful": 0.0457,
+     "neutral": 0.6451,
+     "formal": 0.3092
+    },
+    "confidence": 0.4676
+   },
+   "accent": {
+    "type": "choice",
+    "choice": "green",
+    "probabilities": {
+     "zinc": 0.0037,
+     "blue": 0.2665,
+     "green": 0.6441,
+     "violet": 0.0175,
+     "orange": 0.034,
+     "rose": 0.034
+    },
+    "confidence": 0.573
+   }
+  },
+  "decisions": {
+   "domain": "operations",
+   "layout": "status_page",
+   "lead": "uptime",
+   "chart": "uptime_bars",
+   "panel": "incident_list",
+   "cta": 0.3629,
+   "dark": 0.2031,
+   "density": 1.0,
+   "tone": "neutral",
+   "accent": "green"
+  },
+  "ms": 4138
+ },
+ {
+  "case": "sales_pipeline",
+  "request": "A sales manager's view of this quarter's pipeline: deals by stage, forecast against quota, and the reps who are behind.",
+  "answers": {
+   "domain": {
+    "type": "choice",
+    "choice": "sales",
+    "probabilities": {
+     "support": 0.0,
+     "product": 0.0001,
+     "finance": 0.0,
+     "sales": 0.9998,
+     "operations": 0.0,
+     "marketing": 0.0
+    },
+    "confidence": 0.9998
+   },
+   "layout": {
+    "type": "choice",
+    "choice": "topnav_dashboard",
+    "probabilities": {
+     "sidebar_dashboard": 0.2921,
+     "topnav_dashboard": 0.7059,
+     "table_page": 0.0018,
+     "review_page": 0.0001,
+     "landing": 0.0,
+     "status_page": 0.0
+    },
+    "confidence": 0.6471
+   },
+   "lead": {
+    "type": "choice",
+    "choice": "pipeline_value",
+    "probabilities": {
+     "open_tickets": 0.0,
+     "median_response": 0.0,
+     "signups": 0.0001,
+     "mrr": 0.0018,
+     "pending_approvals": 0.0,
+     "pipeline_value": 0.9976,
+     "uptime": 0.0,
+     "conversion_rate": 0.0005
+    },
+    "confidence": 0.9973
+   },
+   "chart": {
+    "type": "choice",
+    "choice": "bar_categories",
+    "probabilities": {
+     "line_trend": 0.0365,
+     "area_trend": 0.0113,
+     "bar_categories": 0.8017,
+     "donut_share": 0.1185,
+     "uptime_bars": 0.0005,
+     "none": 0.0315
+    },
+    "confidence": 0.762
+   },
+   "panel": {
+    "type": "choice",
+    "choice": "people_load",
+    "probabilities": {
+     "data_table": 0.1226,
+     "people_load": 0.6182,
+     "activity_feed": 0.0015,
+     "incident_list": 0.0008,
+     "funnel": 0.2558,
+     "plan_cards": 0.0007,
+     "review_form": 0.0003
+    },
+    "confidence": 0.5546
+   },
+   "cta": {
+    "type": "noul",
+    "noul": 0.1024
+   },
+   "dark": {
+    "type": "noul",
+    "noul": 0.245
+   },
+   "density": {
+    "type": "score",
+    "score": 1.6078,
+    "legend": {
+     "0": "spacious",
+     "1": "balanced",
+     "2": "dense"
+    },
+    "probabilities": {
+     "0": 0.0214,
+     "1": 0.3494,
+     "2": 0.6292
+    },
+    "confidence": 0.4118
+   },
+   "tone": {
+    "type": "choice",
+    "choice": "formal",
+    "probabilities": {
+     "playful": 0.0028,
+     "neutral": 0.0756,
+     "formal": 0.9216
+    },
+    "confidence": 0.8824
+   },
+   "accent": {
+    "type": "choice",
+    "choice": "blue",
+    "probabilities": {
+     "zinc": 0.0056,
+     "blue": 0.4306,
+     "green": 0.1538,
+     "violet": 0.1328,
+     "orange": 0.1782,
+     "rose": 0.099
+    },
+    "confidence": 0.3167
+   }
+  },
+  "decisions": {
+   "domain": "sales",
+   "layout": "topnav_dashboard",
+   "lead": "pipeline_value",
+   "chart": "bar_categories",
+   "panel": "people_load",
+   "cta": 0.1024,
+   "dark": 0.245,
+   "density": 1.61,
+   "tone": "formal",
+   "accent": "blue"
+  },
+  "ms": 3976
+ }
+]

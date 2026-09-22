@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OpenJev chess replay</title>
+<style>
+:root{color-scheme:light dark;--fg:#1c1c1c;--bg:#f7f7f4;--card:#fff;--accent:#247653;--light:#f0d9b5;--dark:#b58863}
+@media (prefers-color-scheme:dark){:root{--fg:#e8e8e3;--bg:#0f1115;--card:#181b22;--accent:#65dba4}}
+body{margin:0;padding:24px 16px;background:var(--bg);color:var(--fg);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:900px;margin:0 auto;display:grid;grid-template-columns:minmax(280px,420px) 1fr;gap:24px}@media(max-width:700px){main{grid-template-columns:1fr}}
+h1{font-size:22px;margin:0 0 8px}p{margin:0 0 12px}.board{display:grid;grid-template-columns:repeat(8,1fr);aspect-ratio:1;width:100%;max-width:420px;border:2px solid #555;user-select:none}
+.sq{display:flex;align-items:center;justify-content:center;font-size:min(6vw,34px)}.w{color:#fff;text-shadow:0 0 2px #000,0 0 1px #000}.k{color:#111;text-shadow:0 0 2px #fff}.l{background:var(--light)}.d{background:var(--dark)}.last{box-shadow:inset 0 0 0 3px rgba(36,118,83,.8)}
+.panel{background:var(--card);border-radius:10px;padding:16px;box-shadow:0 1px 2px rgba(0,0,0,.1)}.row{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+button{border:1px solid var(--accent);background:transparent;color:var(--accent);padding:8px 14px;border-radius:8px;font-weight:600}button.primary{background:var(--accent);color:#fff}
+.bar{height:10px;background:rgba(127,127,127,.2);border-radius:5px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent)}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}td,th{text-align:left;padding:4px 6px;border-bottom:1px solid rgba(127,127,127,.2)}small{opacity:.7}
+</style></head><body><main>
+<div><h1>OpenJev plays chess</h1><p>A recorded game: every move is one <code>/v1/systemone</code> call with the legal moves as options. Nothing scripted. <span id="meta"></span></p><div class="board" id="board"></div>
+<div class="row"><button id="prev">Back</button><button class="primary" id="play">Play</button><button id="next">Next</button></div></div>
+<div class="panel"><h2 style="margin:0 0 8px;font-size:18px" id="title">Move</h2><p id="desc"></p><div id="top"></div><p><small id="lat"></small></p></div>
+</main>
+<script id="game" type="application/json">__GAME_DATA__</script>
+<script>
+const P={p:"♟",r:"♜",n:"♞",b:"♝",q:"♛",k:"♚",P:"♙",R:"♖",N:"♘",B:"♗",Q:"♕",K:"♔"};
+let rows=[], i=0, timer=null;
+function fenToCells(fen){const out=[];for(const rank of fen.split(" ")[0].split("/")){for(const ch of rank){if(/\d/.test(ch)){for(let k=0;k<+ch;k++)out.push("")}else out.push(ch)}}return out}
+function render(){const r=rows[i];const cells=fenToCells(i===0?"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w":r.fen_after);const b=document.getElementById("board");b.innerHTML="";
+ cells.forEach((c,idx)=>{const d=document.createElement("div");const f=idx%8,rk=Math.floor(idx/8);d.className="sq "+((f+rk)%2?"d":"l")+(c?(c===c.toUpperCase()?" w":" k"):"")+((r&&r.squares&&r.squares.includes(idx))?" last":"");d.textContent=P[c]||"";b.appendChild(d)});
+ document.getElementById("title").textContent=i===0?"Start":`Ply ${r.ply}: ${r.side} plays ${r.choice}`;
+ document.getElementById("desc").textContent=i===0?"White is OpenJev (MLX 4-bit on a Mac). Black plays random legal moves.":(r.top3?`${r.legal} legal moves. Confidence ${r.confidence}. Position rated ${r.eval} of 4 (0 losing, 4 winning).`:`${r.legal} legal moves, picked at random.`);
+ const t=document.getElementById("top");t.innerHTML="";if(r&&r.top3){for(const [m,p] of r.top3){t.insertAdjacentHTML("beforeend",`<div><b>${m}</b> ${(p*100).toFixed(1)}%<div class="bar"><i style="width:${Math.max(2,p*100)}%"></i></div></div>`)}}
+ document.getElementById("lat").textContent=r&&r.ms?`${r.ms} ms for this decision`:"";}
+document.getElementById("next").onclick=()=>{if(i<rows.length-1){i++;render()}};document.getElementById("prev").onclick=()=>{if(i>0){i--;render()}};
+document.getElementById("play").onclick=function(){if(timer){clearInterval(timer);timer=null;this.textContent="Play";return}this.textContent="Pause";timer=setInterval(()=>{if(i<rows.length-1){i++;render()}else{clearInterval(timer);timer=null;document.getElementById("play").textContent="Play"}},900)};
+{const d=JSON.parse(document.getElementById("game").textContent);rows=[{ply:0}].concat(d.plies);document.getElementById("meta").textContent=`Result ${d.result} in ${d.plies.length} plies; ${d.white.avg_ms} ms per OpenJev move.`;render()}
+</script></body></html>

@@ -1,0 +1,10 @@
+{
+ "task": "Search Wikipedia for the city Zurich and open its article. Stop when the article about the city of Zurich is open.",
+ "start_url": "https://en.wikipedia.org/wiki/Main_Page",
+ "final_url": "https://en.wikipedia.org/wiki/Zurich",
+ "elapsed_ms": 87710,
+ "actions": 2,
+ "decisions": 5,
+ "hardware": "MacBook Pro M5 Max, OpenJev MLX 4-bit",
+ "note": "Wikipedia pages are 8k to 21k tokens; each decision is one call with three questions (operation, click target, type target)."
+}

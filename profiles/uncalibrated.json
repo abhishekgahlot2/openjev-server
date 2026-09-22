@@ -1,0 +1,15 @@
+{
+  "name": "uncalibrated",
+  "description": "Raw model scores (temperature 1, no yes/no scaling). Start here for a new model, then run `openjev calibrate` on your own development rows.",
+  "temp": 1.0,
+  "noul_t": 1.0,
+  "noul_bias": 0.0,
+  "perms": 1,
+  "instr_style": "json",
+  "stagger": true,
+  "stagger_min_chars": 16000,
+  "compact": false,
+  "compact_cap": 0,
+  "layout": "",
+  "pad": 0
+}

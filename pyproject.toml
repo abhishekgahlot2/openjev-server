@@ -1,0 +1,56 @@
+[project]
+name = "openjev-server"
+version = "0.2.0"
+description = "A decision API (POST /v1/systemone) over any open language model: one forward pass, a probability for every option."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "httpx>=0.27",
+  "pydantic>=2.7",
+  "pydantic-settings>=2.3",
+  "prometheus-client>=0.20",
+  "transformers>=4.57",
+]
+
+[project.optional-dependencies]
+mlx = ["mlx>=0.32", "mlx-lm>=0.31"]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "ruff>=0.6", "openai>=1.40", "jinja2>=3.1"]  # openai + jinja2: the released helper imported by the compat tests
+
+[project.urls]
+Homepage = "https://github.com/abhishekgahlot2/openjev-server"
+"Hugging Face" = "https://huggingface.co/spaces/openjev/openjev-server"
+Model = "https://huggingface.co/openjev/openjev"
+
+[project.scripts]
+openjev = "openjev_server.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["openjev_server", "openjev_server.backends"]
+
+[tool.setuptools.package-data]
+openjev_server = ["../profiles/*.json"]
+
+[tool.ruff]
+line-length = 160
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "C90", "PLR0912", "PLR0913", "PLR0915", "RET", "PIE", "PERF", "RUF"]
+ignore = ["RUF012", "RUF001", "RUF002", "RUF003"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["PLR0913"]
+"demos/*" = ["E501"]  # policy text and page templates are long strings
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"

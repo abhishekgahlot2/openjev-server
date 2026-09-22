@@ -1,0 +1,10 @@
+{
+ "task": "Search the models for openjev and open the openjev-MLX-4bit model page. Stop when that model card is open.",
+ "start_url": "https://huggingface.co/models",
+ "final_url": "https://huggingface.co/models?apps=mlx-lm&sort=trending&search=openjev",
+ "status": "blocked",
+ "elapsed_ms": 122995,
+ "actions": 3,
+ "hardware": "MacBook Pro M5 Max, OpenJev MLX 4-bit",
+ "note": "typed the search and applied a filter, then repeated a non-changing action three times: the harness stops that as blocked. Not solved on the laptop build."
+}

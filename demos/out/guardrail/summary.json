@@ -1,0 +1,20 @@
+{
+ "cases": 200,
+ "gold_distribution": {
+  "deny": 84,
+  "allow": 89,
+  "ask_human": 27
+ },
+ "decision_accuracy": 1.0,
+ "pii_accuracy": 0.73,
+ "denied_calls_the_model_allowed": 0,
+ "denied_calls_total": 84,
+ "baselines": {
+  "majority_class": {
+   "label": "allow",
+   "accuracy": 0.445
+  },
+  "uniform_random": 0.3333
+ },
+ "avg_ms": 974
+}

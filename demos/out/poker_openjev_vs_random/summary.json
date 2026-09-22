@@ -1,0 +1,12 @@
+{
+ "deals": 25,
+ "hands": 50,
+ "chips": {
+  "OpenJev MLX 4-bit": 118,
+  "random bot": -118
+ },
+ "OpenJev MLX 4-bit": {
+  "decisions": 76,
+  "avg_ms": 1352
+ }
+}

@@ -1,0 +1,288 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OpenJev demos</title>
+<style>:root{color-scheme:light dark}body{margin:0;padding:24px 16px;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:light-dark(#f7f7f4,#0f1115);color:light-dark(#1c1c1c,#e8e8e3)}
+main{max-width:1000px;margin:0 auto}h1{font-size:26px}h2{font-size:20px;margin:32px 0 8px}h2 small{opacity:.6;font-weight:400;font-size:13px;margin-left:8px}section{background:light-dark(#fff,#181b22);border-radius:10px;padding:16px 20px;margin-bottom:20px}
+figure{margin:12px 0}img{max-width:100%;border-radius:8px;border:1px solid rgba(127,127,127,.3)}figcaption{font-size:13px;opacity:.7}pre{overflow-x:auto;background:rgba(127,127,127,.12);padding:12px;border-radius:8px;font-size:12.5px}
+.btn{display:inline-block;padding:8px 14px;border-radius:8px;background:#247653;color:#fff;text-decoration:none;font-weight:600}</style></head><body><main>
+<h1>OpenJev demos</h1><p>Every output here was produced by the real model on this machine (OpenJev MLX 4-bit, Apple M5 Max). Nothing is scripted: each decision is one <code>/v1/systemone</code> call, logged in <code>decisions.jsonl</code> next to the outputs.</p>
+<section><h2>Browser agent on the laptop <small>browser_hf</small></h2><figure><img src="browser_hf/hf.gif" alt="hf"><figcaption>hf.gif</figcaption></figure><pre>{
+ "task": "Search the models for openjev and open the openjev-MLX-4bit model page. Stop when that model card is open.",
+ "start_url": "https://huggingface.co/models",
+ "final_url": "https://huggingface.co/models?apps=mlx-lm&sort=trending&search=openjev",
+ "status": "blocked",
+ "elapsed_ms": 122995,
+ "actions": 3,
+ "hardware": "MacBook Pro M5 Max, OpenJev MLX 4-bit",
+ "note": "typed the search and applied a filter, then repeated a non-changing action three times: the harness stops that as blocked. Not solved on the laptop build."
+}</pre></section><section><h2>Browser agent on the laptop <small>browser_hn2</small></h2><figure><img src="browser_hn2/hn2.gif" alt="hn2"><figcaption>hn2.gif</figcaption></figure><pre>{
+ "task": "Open the comments page of the top story on Hacker News. Stop when the comments are visible.",
+ "start_url": "https://news.ycombinator.com/",
+ "final_url": "https://news.ycombinator.com/item?id=49801324",
+ "status": "done",
+ "elapsed_ms": 53532,
+ "actions": 1,
+ "hardware": "MacBook Pro M5 Max, OpenJev MLX 4-bit",
+ "note": "one click, then the model answered DONE on the comments page"
+}</pre></section><section><h2>Browser agent on the laptop <small>browser_wikipedia</small></h2><pre>{
+ "task": "Search Wikipedia for the city Zurich and open its article. Stop when the article about the city of Zurich is open.",
+ "start_url": "https://en.wikipedia.org/wiki/Main_Page",
+ "final_url": "https://en.wikipedia.org/wiki/Zurich",
+ "elapsed_ms": 87710,
+ "actions": 2,
+ "decisions": 5,
+ "hardware": "MacBook Pro M5 Max, OpenJev MLX 4-bit",
+ "note": "Wikipedia pages are 8k to 21k tokens; each decision is one call with three questions (operation, click target, type target)."
+}</pre><figure><img src="browser_wikipedia/wikipedia.gif" alt="wikipedia"><figcaption>wikipedia.gif</figcaption></figure></section><section><h2>Chess: OpenJev vs a random mover <small>chess_openjev_vs_random</small></h2><figure><img src="chess_openjev_vs_random/chess.gif" alt="chess"><figcaption>chess.gif</figcaption></figure><pre>[Event "openjev-server demo"]
+[Site "?"]
+[Date "2026.09.22"]
+[Round "?"]
+[White "OpenJev MLX 4-bit"]
+[Black "random mover"]
+[Result "1-0"]
+
+1. e4 h6 2. Nf3 a5 3. d4 Nc6 4. Nc3 Nxd4 5. Nxd4 Ra7 6. Bc4 d5 7. exd5 b5 8. Bxb5+ Bd7 9. Bxd7+ Qxd7 10. O-O c6 11. Nxc6 Qh3 12. gxh3 Rb7 13. Nxa5 Kd7 14. Nxb7 e6 15. dxe6+ Ke8 16. Qd8# 1-0
+</pre><p><a class="btn" href="chess_openjev_vs_random/replay.html">Open the interactive replay</a></p><pre>{
+ "result": "1-0",
+ "plies": 31,
+ "termination": "checkmate",
+ "white": {
+  "name": "OpenJev MLX 4-bit",
+  "calls": 16,
+  "avg_ms": 1162
+ },
+ "black": {
+  "name": "random mover",
+  "calls": 0,
+  "avg_ms": 0
+ },
+ "final_fen": "3Qkbnr/1N3pp1/4P2p/8/8/2N4P/PPP2P1P/R1B2RK1 b - - 2 16"
+}</pre></section><section><h2>classify_banking77 <small>classify_banking77</small></h2><pre>{
+ "dataset": "banking77 test (mteb/banking77 mirror)",
+ "messages": 300,
+ "labels": 77,
+ "accuracy": 0.78,
+ "top3_accuracy": 0.9233,
+ "macro_f1": 0.7671,
+ "majority_baseline": 0.0267,
+ "avg_ms": 2546,
+ "messages_per_second": 0.39
+}</pre></section><section><h2>Generative UI: ten dashboard decisions in one call <small>genui</small></h2><figure><a href="genui/expense_approvals.html"><img src="genui/expense_approvals.png" alt="expense_approvals"></a><figcaption>expense_approvals (click for the page)</figcaption></figure><figure><a href="genui/ops_status.html"><img src="genui/ops_status.png" alt="ops_status"></a><figcaption>ops_status (click for the page)</figcaption></figure><figure><a href="genui/pricing.html"><img src="genui/pricing.png" alt="pricing"></a><figcaption>pricing (click for the page)</figcaption></figure><figure><a href="genui/saas_growth.html"><img src="genui/saas_growth.png" alt="saas_growth"></a><figcaption>saas_growth (click for the page)</figcaption></figure><figure><a href="genui/sales_pipeline.html"><img src="genui/sales_pipeline.png" alt="sales_pipeline"></a><figcaption>sales_pipeline (click for the page)</figcaption></figure><figure><a href="genui/support_dashboard.html"><img src="genui/support_dashboard.png" alt="support_dashboard"></a><figcaption>support_dashboard (click for the page)</figcaption></figure></section><section><h2>Agent guardrail: is this tool call allowed under the policy? <small>guardrail</small></h2><pre>{
+ "cases": 200,
+ "gold_distribution": {
+  "deny": 84,
+  "allow": 89,
+  "ask_human": 27
+ },
+ "decision_accuracy": 1.0,
+ "pii_accuracy": 0.73,
+ "denied_calls_the_model_allowed": 0,
+ "denied_calls_total": 84,
+ "baselines": {
+  "majority_class": {
+   "label": "allow",
+   "accuracy": 0.445
+  },
+  "uniform_random": 0.3333
+ },
+ "avg_ms": 974
+}</pre></section><section><h2>Natural-language filters over table rows, eight per call <small>nl_filter</small></h2><pre>{
+ "rows": 60,
+ "predicates": 8,
+ "row_predicate_accuracy": 0.9208,
+ "per_predicate": {
+  "damaged_or_broken": {
+   "precision": 0.708,
+   "recall": 1.0,
+   "accuracy": 0.883,
+   "positives": 17
+  },
+  "premium_over_500": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0,
+   "positives": 1
+  },
+  "delivery_problem": {
+   "precision": 0.741,
+   "recall": 1.0,
+   "accuracy": 0.883,
+   "positives": 20
+  },
+  "recent_30d": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0,
+   "positives": 19
+  },
+  "eu_customer": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0,
+   "positives": 24
+  },
+  "billing": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0,
+   "positives": 9
+  },
+  "electronics_under_200": {
+   "precision": 0.95,
+   "recall": 1.0,
+   "accuracy": 0.983,
+   "positives": 19
+  },
+  "needs_replacement": {
+   "precision": 0.587,
+   "recall": 0.871,
+   "accuracy": 0.617,
+   "positives": 31
+  }
+ },
+ "avg_ms_per_row": 1771,
+ "predicates_per_second": 4.5
+}</pre></section><section><h2>Poker: heads-up no-limit hold'em, OpenJev vs a rule bot <small>poker_openjev_vs_random</small></h2><pre>{
+ "decisions": 76,
+ "spearman_strength_vs_equity": 0.752,
+ "action_by_equity": {
+  "weak (<40%)": {
+   "n": 12,
+   "fold": 0.67,
+   "raise_or_all_in": 0.08
+  },
+  "middle (40-60%)": {
+   "n": 40,
+   "fold": 0.68,
+   "raise_or_all_in": 0.15
+  },
+  "strong (>60%)": {
+   "n": 24,
+   "fold": 0.12,
+   "raise_or_all_in": 0.33
+  }
+ }
+}</pre><pre>{
+ "deals": 25,
+ "hands": 50,
+ "chips": {
+  "OpenJev MLX 4-bit": 118,
+  "random bot": -118
+ },
+ "OpenJev MLX 4-bit": {
+  "decisions": 76,
+  "avg_ms": 1352
+ }
+}</pre></section><section><h2>Poker: heads-up no-limit hold'em, OpenJev vs a rule bot <small>poker_openjev_vs_rulebot</small></h2><pre>{
+ "decisions": 127,
+ "spearman_strength_vs_equity": 0.67,
+ "action_by_equity": {
+  "weak (<40%)": {
+   "n": 38,
+   "fold": 0.21,
+   "raise_or_all_in": 0.08
+  },
+  "middle (40-60%)": {
+   "n": 58,
+   "fold": 0.14,
+   "raise_or_all_in": 0.26
+  },
+  "strong (>60%)": {
+   "n": 31,
+   "fold": 0.0,
+   "raise_or_all_in": 0.52
+  }
+ }
+}</pre><pre>{
+ "deals": 20,
+ "hands": 40,
+ "chips": {
+  "OpenJev MLX 4-bit": -81,
+  "rulebot": 81
+ },
+ "OpenJev MLX 4-bit": {
+  "decisions": 127,
+  "avg_ms": 1679
+ }
+}</pre></section><section><h2>Poker: heads-up no-limit hold'em, OpenJev vs a rule bot <small>poker_openjev_vs_rulebot_60</small></h2><pre>{
+ "decisions": 367,
+ "spearman_strength_vs_equity": 0.721,
+ "action_by_equity": {
+  "weak (<40%)": {
+   "n": 77,
+   "fold": 0.38,
+   "raise_or_all_in": 0.05
+  },
+  "middle (40-60%)": {
+   "n": 147,
+   "fold": 0.18,
+   "raise_or_all_in": 0.25
+  },
+  "strong (>60%)": {
+   "n": 143,
+   "fold": 0.07,
+   "raise_or_all_in": 0.28
+  }
+ }
+}</pre><pre>{
+ "deals": 60,
+ "hands": 120,
+ "chips": {
+  "OpenJev MLX 4-bit": -182,
+  "rulebot": 182
+ },
+ "OpenJev MLX 4-bit": {
+  "decisions": 367,
+  "avg_ms": 1092
+ }
+}</pre></section><section><h2>Returns policy: 200 generated cases, exact ground truth <small>policy</small></h2><pre>{
+ "cases": 200,
+ "gold_distribution": {
+  "deny": 87,
+  "partial_refund": 23,
+  "replacement": 23,
+  "full_refund": 39,
+  "store_credit": 28
+ },
+ "baselines": {
+  "majority_class": {
+   "label": "deny",
+   "accuracy": 0.435
+  },
+  "uniform_random": 0.2
+ },
+ "days_stated": {
+  "n": 200,
+  "outcome_accuracy": 0.935,
+  "approval_accuracy": 0.965
+ },
+ "calendar_dates": {
+  "n": 200,
+  "outcome_accuracy": 0.88,
+  "approval_accuracy": 0.975
+ },
+ "avg_ms": 1839
+}</pre></section><section><h2>prompt_injection <small>prompt_injection</small></h2><pre>{
+ "messages": 662,
+ "positives": 263,
+ "accuracy_at_0.5": 0.9502,
+ "roc_auc": 0.9949,
+ "ece_10_bins": 0.0525,
+ "recall_at_2pct_false_alarm": 0.9772,
+ "threshold_at_2pct_false_alarm": 0.0885,
+ "majority_baseline": 0.6027,
+ "avg_ms": 339
+}</pre></section><section><h2>Recorded on one H100 with the FP8 build (inbox triage, dashboard assembly, Google Flights, shopping, page QA) <small>recorded_gpu</small></h2><figure><video src="recorded_gpu/google-flights-colocated.mp4" controls muted playsinline preload="metadata" style="max-width:100%;border-radius:8px"></video><figcaption>google-flights-colocated.mp4</figcaption></figure><figure><video src="recorded_gpu/inbox-classification.mp4" controls muted playsinline preload="metadata" style="max-width:100%;border-radius:8px"></video><figcaption>inbox-classification.mp4</figcaption></figure><figure><video src="recorded_gpu/loop-qa-grid.mp4" controls muted playsinline preload="metadata" style="max-width:100%;border-radius:8px"></video><figcaption>loop-qa-grid.mp4</figcaption></figure><figure><video src="recorded_gpu/shopping-colocated.mp4" controls muted playsinline preload="metadata" style="max-width:100%;border-radius:8px"></video><figcaption>shopping-colocated.mp4</figcaption></figure><figure><video src="recorded_gpu/workspace-assembly.mp4" controls muted playsinline preload="metadata" style="max-width:100%;border-radius:8px"></video><figcaption>workspace-assembly.mp4</figcaption></figure></section><section><h2>Snake, played live by the model <small>snake</small></h2><figure><img src="snake/snake.gif" alt="snake"><figcaption>snake.gif</figcaption></figure><pre>{
+ "player": "model",
+ "games": 3,
+ "scores": [
+  14,
+  2,
+  17
+ ],
+ "mean_score": 11.0,
+ "moves": 600,
+ "wall_s": 561.9,
+ "avg_ms_per_move": 936,
+ "moves_per_second": 1.07,
+ "gif": "demos/out/snake/snake.gif"
+}</pre></section>
+</main></body></html>

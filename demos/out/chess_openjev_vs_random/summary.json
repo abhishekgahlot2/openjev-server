@@ -1,0 +1,16 @@
+{
+ "result": "1-0",
+ "plies": 31,
+ "termination": "checkmate",
+ "white": {
+  "name": "OpenJev MLX 4-bit",
+  "calls": 16,
+  "avg_ms": 1162
+ },
+ "black": {
+  "name": "random mover",
+  "calls": 0,
+  "avg_ms": 0
+ },
+ "final_fen": "3Qkbnr/1N3pp1/4P2p/8/8/2N4P/PPP2P1P/R1B2RK1 b - - 2 16"
+}

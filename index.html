@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base target="_top"><title>openjev-server</title>
+<style>:root{color-scheme:light dark}body{margin:0;padding:40px 16px 64px;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:light-dark(#fafaf7,#0f1115);color:light-dark(#1d1f23,#e7e7e2)}
+main{max-width:760px;margin:0 auto}h1{font-size:40px;line-height:1.1;margin:0 0 12px;letter-spacing:-.02em}p.lead{font-size:20px;color:light-dark(#3b3e45,#c4c6cc);margin:0 0 28px}
+pre{background:light-dark(#111318,#181b22);color:#e8e8e3;padding:16px 18px;border-radius:10px;overflow-x:auto;font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace}code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.row{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.row a{padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:600;border:1px solid light-dark(#247653,#65dba4);color:light-dark(#247653,#65dba4)}.row a.primary{background:light-dark(#247653,#65dba4);color:light-dark(#fff,#0f1115)}
+h2{font-size:22px;margin:36px 0 10px}ul{padding-left:20px}li{margin:6px 0}small{color:light-dark(#6a6e78,#9a9da6)}</style></head><body><main>
+<h1>openjev-server</h1>
+<p class="lead">A decision API over any open language model. Send a situation and your questions; get back one choice, yes/no probability or score per question, with a probability for every option. One forward pass per question. Nothing generated.</p>
+<div class="row"><a class="primary" href="https://github.com/abhishekgahlot2/openjev-server">Code on GitHub</a><a href="https://huggingface.co/spaces/openjev/openjev-server/tree/main">Files on Hugging Face</a><a href="https://huggingface.co/openjev/openjev">OpenJev model</a><a href="https://huggingface.co/openjev">All models</a></div>
+<pre>pip install "openjev-server @ git+https://github.com/abhishekgahlot2/openjev-server"
+
+# a GPU: vLLM serves the weights, openjev-server exposes the decision API
+openjev serve --backend vllm --model openjev/openjev-FP8 --vllm-url http://localhost:8000/v1 --profile openjev
+
+# a Mac
+openjev serve --backend mlx --model openjev-MLX-4bit --profile openjev</pre>
+<h2>Real demos, real decisions</h2>
+<p>Left: the browser agent completing a Google Flights search on one H100, page text and controls only. Right: 24 inbox messages triaged, 72 typed fields in 6.41 s. The rest ran on a MacBook Pro with the 4-bit build, every decision logged. <a href="https://github.com/abhishekgahlot2/openjev-server/blob/master/demos/README.md">Scripts and outputs</a>.</p>
+<div class="row" style="align-items:flex-start"><video src="demos/out/recorded_gpu/google-flights-colocated.mp4" controls muted playsinline preload="metadata" style="width:440px;max-width:100%;border-radius:8px"></video><video src="demos/out/recorded_gpu/inbox-classification.mp4" controls muted playsinline preload="metadata" style="width:440px;max-width:100%;border-radius:8px"></video></div>
+<div class="row" style="align-items:flex-start"><img src="demos/out/chess_openjev_vs_random/chess.gif" alt="chess game" style="width:260px;max-width:100%;border-radius:8px"><img src="demos/out/genui/saas_growth.png" alt="dashboard laid out by the model" style="width:460px;max-width:100%;border-radius:8px;border:1px solid #8886"></div>
+<ul><li><strong>Chess.</strong> Legal moves as options, one call per ply: checkmated a random mover in 16 moves, 1.2 s a move.</li>
+<li><strong>Returns policy.</strong> Nine rules, 200 generated cases with exact ground truth: 93.5% right, 88.0% when it has to count calendar days itself, against a 43.5% majority baseline.</li>
+<li><strong>Generative UI.</strong> One sentence, ten layout decisions in one call, rendered shadcn-style: six distinct dashboards.</li>
+<li><strong>Poker.</strong> Heads-up against an equity bot: even over 40 hands, and its hand-strength rating tracks true equity.</li>
+<li><strong>Browser agent and Snake.</strong> jev-ultrafast on the local server finished Wikipedia and Hacker News tasks; Snake is played live, one call per move. <a href="demos/out/chess_openjev_vs_random/replay.html">Interactive chess replay</a>.</li></ul>
+<h2>What you get</h2>
+<ul><li><strong>One API for every decision.</strong> Routing, moderation, judging, next action for an agent: your labels arrive with the request, and a probability comes back for each.</li>
+<li><strong>Any model.</strong> The server probes the model at start: which label tokens it has, whether exact scores are available, whether it sees images. It refuses to serve noise and tells you why.</li>
+<li><strong>Honest probabilities.</strong> <code>openjev calibrate</code> fits a new model's constants on your own development rows. The <code>openjev</code> profile is the one behind OpenJev's published numbers.</li>
+<li><strong>Fast on a Mac.</strong> The shared part of a request is read once and reused for every question of that request.</li>
+<li><strong>Built to run.</strong> Health and readiness, Prometheus metrics, bearer auth, a bench command, Docker Compose for one GPU.</li></ul>
+<p><small>Apache 2.0. Model weights carry their own licences. OpenJev is an independent project, not affiliated with TypeSafe; Jev is their product.</small></p>
+</main></body></html>

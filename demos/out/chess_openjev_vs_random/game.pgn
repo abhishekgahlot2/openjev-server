@@ -1,0 +1,9 @@
+[Event "openjev-server demo"]
+[Site "?"]
+[Date "2026.09.22"]
+[Round "?"]
+[White "OpenJev MLX 4-bit"]
+[Black "random mover"]
+[Result "1-0"]
+
+1. e4 h6 2. Nf3 a5 3. d4 Nc6 4. Nc3 Nxd4 5. Nxd4 Ra7 6. Bc4 d5 7. exd5 b5 8. Bxb5+ Bd7 9. Bxd7+ Qxd7 10. O-O c6 11. Nxc6 Qh3 12. gxh3 Rb7 13. Nxa5 Kd7 14. Nxb7 e6 15. dxe6+ Ke8 16. Qd8# 1-0

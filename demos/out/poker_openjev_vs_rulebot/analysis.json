@@ -1,0 +1,21 @@
+{
+ "decisions": 127,
+ "spearman_strength_vs_equity": 0.67,
+ "action_by_equity": {
+  "weak (<40%)": {
+   "n": 38,
+   "fold": 0.21,
+   "raise_or_all_in": 0.08
+  },
+  "middle (40-60%)": {
+   "n": 58,
+   "fold": 0.14,
+   "raise_or_all_in": 0.26
+  },
+  "strong (>60%)": {
+   "n": 31,
+   "fold": 0.0,
+   "raise_or_all_in": 0.52
+  }
+ }
+}

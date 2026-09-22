@@ -1,0 +1,600 @@
+{"game": 0, "move": 0, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.6051, "outlook": 2.6019, "score": 0, "ms": 589}
+{"game": 0, "move": 1, "choice": "up", "options": ["up", "down", "right"], "confidence": 0.5138, "outlook": 2.3872, "score": 0, "ms": 1133}
+{"game": 0, "move": 2, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.8852, "outlook": 1.958, "score": 0, "ms": 1023}
+{"game": 0, "move": 3, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.6845, "outlook": 2.5183, "score": 1, "ms": 910}
+{"game": 0, "move": 4, "choice": "up", "options": ["up", "down", "right"], "confidence": 0.7457, "outlook": 1.6903, "score": 1, "ms": 896}
+{"game": 0, "move": 5, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.9913, "outlook": 3.6009, "score": 1, "ms": 895}
+{"game": 0, "move": 6, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.5818, "outlook": 2.0627, "score": 2, "ms": 941}
+{"game": 0, "move": 7, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6646, "outlook": 2.0341, "score": 2, "ms": 1058}
+{"game": 0, "move": 8, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.4836, "outlook": 1.9667, "score": 2, "ms": 1019}
+{"game": 0, "move": 9, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.7407, "outlook": 2.2544, "score": 2, "ms": 1007}
+{"game": 0, "move": 10, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.8588, "outlook": 2.4706, "score": 2, "ms": 866}
+{"game": 0, "move": 11, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.7965, "outlook": 2.5029, "score": 2, "ms": 881}
+{"game": 0, "move": 12, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.4912, "outlook": 2.5632, "score": 2, "ms": 882}
+{"game": 0, "move": 13, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.3431, "outlook": 2.4224, "score": 2, "ms": 1022}
+{"game": 0, "move": 14, "choice": "down", "options": ["up", "down", "left"], "confidence": 0.6213, "outlook": 2.2815, "score": 2, "ms": 821}
+{"game": 0, "move": 15, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8763, "outlook": 2.7906, "score": 2, "ms": 848}
+{"game": 0, "move": 16, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9058, "outlook": 2.8522, "score": 2, "ms": 841}
+{"game": 0, "move": 17, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.889, "outlook": 2.7601, "score": 2, "ms": 961}
+{"game": 0, "move": 18, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9403, "outlook": 2.8262, "score": 2, "ms": 966}
+{"game": 0, "move": 19, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8798, "outlook": 2.6543, "score": 2, "ms": 976}
+{"game": 0, "move": 20, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.6578, "outlook": 2.5127, "score": 2, "ms": 965}
+{"game": 0, "move": 21, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.3915, "outlook": 2.3475, "score": 2, "ms": 980}
+{"game": 0, "move": 22, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.7898, "outlook": 1.7938, "score": 2, "ms": 973}
+{"game": 0, "move": 23, "choice": "down", "options": ["up", "down", "left"], "confidence": 0.4111, "outlook": 2.3642, "score": 2, "ms": 968}
+{"game": 0, "move": 24, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.8436, "outlook": 1.1449, "score": 2, "ms": 852}
+{"game": 0, "move": 25, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.9978, "outlook": 3.4651, "score": 2, "ms": 888}
+{"game": 0, "move": 26, "choice": "up", "options": ["up", "down"], "confidence": 0.6689, "outlook": 0.6441, "score": 3, "ms": 985}
+{"game": 0, "move": 27, "choice": "up", "options": ["up", "right"], "confidence": 0.8997, "outlook": 2.7235, "score": 3, "ms": 807}
+{"game": 0, "move": 28, "choice": "up", "options": ["up", "right"], "confidence": 0.8263, "outlook": 2.7822, "score": 3, "ms": 811}
+{"game": 0, "move": 29, "choice": "up", "options": ["up", "right"], "confidence": 0.7737, "outlook": 2.6845, "score": 3, "ms": 822}
+{"game": 0, "move": 30, "choice": "up", "options": ["up", "right"], "confidence": 0.6263, "outlook": 2.7811, "score": 3, "ms": 833}
+{"game": 0, "move": 31, "choice": "up", "options": ["up", "right"], "confidence": 0.3519, "outlook": 2.8757, "score": 3, "ms": 834}
+{"game": 0, "move": 32, "choice": "up", "options": ["up", "right"], "confidence": 0.4736, "outlook": 2.8036, "score": 3, "ms": 828}
+{"game": 0, "move": 33, "choice": "up", "options": ["up", "right"], "confidence": 0.3519, "outlook": 2.6824, "score": 3, "ms": 824}
+{"game": 0, "move": 34, "choice": "up", "options": ["up", "right"], "confidence": 0.3519, "outlook": 2.5426, "score": 3, "ms": 819}
+{"game": 0, "move": 35, "choice": "right", "options": ["up", "right"], "confidence": 0.5286, "outlook": 2.6222, "score": 3, "ms": 816}
+{"game": 0, "move": 36, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9505, "outlook": 2.8269, "score": 3, "ms": 820}
+{"game": 0, "move": 37, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.943, "outlook": 2.8275, "score": 3, "ms": 843}
+{"game": 0, "move": 38, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8509, "outlook": 2.8143, "score": 3, "ms": 829}
+{"game": 0, "move": 39, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8066, "outlook": 2.9216, "score": 3, "ms": 833}
+{"game": 0, "move": 40, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.305, "outlook": 2.7492, "score": 3, "ms": 844}
+{"game": 0, "move": 41, "choice": "up", "options": ["up", "down", "right"], "confidence": 0.7478, "outlook": 2.0894, "score": 3, "ms": 855}
+{"game": 0, "move": 42, "choice": "right", "options": ["left", "right"], "confidence": 0.9343, "outlook": 0.3379, "score": 4, "ms": 771}
+{"game": 0, "move": 43, "choice": "right", "options": ["down", "right"], "confidence": 0.7737, "outlook": 1.7668, "score": 4, "ms": 832}
+{"game": 0, "move": 44, "choice": "right", "options": ["down", "right"], "confidence": 0.2859, "outlook": 1.3714, "score": 4, "ms": 817}
+{"game": 0, "move": 45, "choice": "down", "options": ["down", "right"], "confidence": 0.8016, "outlook": 1.0888, "score": 4, "ms": 778}
+{"game": 0, "move": 46, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.6463, "outlook": 2.7464, "score": 4, "ms": 760}
+{"game": 0, "move": 47, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.6844, "outlook": 2.7135, "score": 4, "ms": 898}
+{"game": 0, "move": 48, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.6845, "outlook": 2.7694, "score": 4, "ms": 966}
+{"game": 0, "move": 49, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.4127, "outlook": 2.6142, "score": 4, "ms": 926}
+{"game": 0, "move": 50, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.4124, "outlook": 2.4729, "score": 4, "ms": 1023}
+{"game": 0, "move": 51, "choice": "down", "options": ["up", "down"], "confidence": 0.968, "outlook": 0.9102, "score": 4, "ms": 930}
+{"game": 0, "move": 52, "choice": "down", "options": ["down", "left"], "confidence": 0.6689, "outlook": 2.6927, "score": 5, "ms": 928}
+{"game": 0, "move": 53, "choice": "down", "options": ["down", "left"], "confidence": 0.8847, "outlook": 2.8128, "score": 5, "ms": 924}
+{"game": 0, "move": 54, "choice": "down", "options": ["down", "left"], "confidence": 0.8677, "outlook": 2.807, "score": 5, "ms": 956}
+{"game": 0, "move": 55, "choice": "down", "options": ["down", "left"], "confidence": 0.5795, "outlook": 2.7685, "score": 5, "ms": 916}
+{"game": 0, "move": 56, "choice": "left", "options": ["down", "left"], "confidence": 0.7076, "outlook": 1.713, "score": 5, "ms": 917}
+{"game": 0, "move": 57, "choice": "down", "options": ["up", "down", "left"], "confidence": 0.5086, "outlook": 2.291, "score": 5, "ms": 806}
+{"game": 0, "move": 58, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.5446, "outlook": 0.991, "score": 6, "ms": 934}
+{"game": 0, "move": 59, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.4088, "outlook": 2.1652, "score": 6, "ms": 927}
+{"game": 0, "move": 60, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.4606, "outlook": 2.2699, "score": 6, "ms": 809}
+{"game": 0, "move": 61, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.4992, "outlook": 2.4149, "score": 6, "ms": 827}
+{"game": 0, "move": 62, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.9871, "outlook": 3.4388, "score": 6, "ms": 790}
+{"game": 0, "move": 63, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.7796, "outlook": 2.7009, "score": 7, "ms": 934}
+{"game": 0, "move": 64, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6841, "outlook": 2.5738, "score": 7, "ms": 936}
+{"game": 0, "move": 65, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.791, "outlook": 2.3758, "score": 7, "ms": 916}
+{"game": 0, "move": 66, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.976, "outlook": 3.4468, "score": 7, "ms": 914}
+{"game": 0, "move": 67, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.4613, "outlook": 2.2044, "score": 8, "ms": 930}
+{"game": 0, "move": 68, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.3554, "outlook": 2.2297, "score": 8, "ms": 957}
+{"game": 0, "move": 69, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.2458, "outlook": 2.267, "score": 8, "ms": 938}
+{"game": 0, "move": 70, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6763, "outlook": 2.73, "score": 8, "ms": 917}
+{"game": 0, "move": 71, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6837, "outlook": 2.766, "score": 8, "ms": 937}
+{"game": 0, "move": 72, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.3569, "outlook": 2.6512, "score": 8, "ms": 912}
+{"game": 0, "move": 73, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9495, "outlook": 2.8628, "score": 8, "ms": 928}
+{"game": 0, "move": 74, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9227, "outlook": 2.7216, "score": 8, "ms": 899}
+{"game": 0, "move": 75, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8486, "outlook": 2.6792, "score": 8, "ms": 913}
+{"game": 0, "move": 76, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8291, "outlook": 2.7654, "score": 8, "ms": 932}
+{"game": 0, "move": 77, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8051, "outlook": 2.5802, "score": 8, "ms": 931}
+{"game": 0, "move": 78, "choice": "up", "options": ["up", "down", "right"], "confidence": 0.6809, "outlook": 1.898, "score": 8, "ms": 932}
+{"game": 0, "move": 79, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.7392, "outlook": 1.662, "score": 8, "ms": 794}
+{"game": 0, "move": 80, "choice": "up", "options": ["up", "down"], "confidence": 0.5795, "outlook": 0.6282, "score": 9, "ms": 931}
+{"game": 0, "move": 81, "choice": "left", "options": ["left"], "confidence": 1.0, "outlook": 0.3757, "score": 9, "ms": 918}
+{"game": 0, "move": 82, "choice": "left", "options": ["left"], "confidence": 1.0, "outlook": 2.1687, "score": 9, "ms": 1113}
+{"game": 0, "move": 83, "choice": "left", "options": ["down", "left"], "confidence": 0.2171, "outlook": 1.9363, "score": 9, "ms": 917}
+{"game": 0, "move": 84, "choice": "left", "options": ["down", "left"], "confidence": 0.6263, "outlook": 1.761, "score": 9, "ms": 765}
+{"game": 0, "move": 85, "choice": "left", "options": ["down", "left"], "confidence": 0.0734, "outlook": 1.7871, "score": 9, "ms": 918}
+{"game": 0, "move": 86, "choice": "left", "options": ["down", "left"], "confidence": 0.146, "outlook": 1.9032, "score": 9, "ms": 938}
+{"game": 0, "move": 87, "choice": "left", "options": ["down", "left"], "confidence": 0.8016, "outlook": 1.7778, "score": 9, "ms": 950}
+{"game": 0, "move": 88, "choice": "left", "options": ["down", "left"], "confidence": 0.7076, "outlook": 1.8085, "score": 9, "ms": 942}
+{"game": 0, "move": 89, "choice": "left", "options": ["down", "left"], "confidence": 0.6263, "outlook": 1.598, "score": 9, "ms": 776}
+{"game": 0, "move": 90, "choice": "left", "options": ["down", "left"], "confidence": 0.2859, "outlook": 1.4807, "score": 9, "ms": 811}
+{"game": 0, "move": 91, "choice": "down", "options": ["down", "left"], "confidence": 0.3519, "outlook": 0.9225, "score": 9, "ms": 826}
+{"game": 0, "move": 92, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.6445, "outlook": 2.9451, "score": 9, "ms": 816}
+{"game": 0, "move": 93, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8056, "outlook": 2.8292, "score": 9, "ms": 818}
+{"game": 0, "move": 94, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.56, "outlook": 2.6669, "score": 9, "ms": 802}
+{"game": 0, "move": 95, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.412, "outlook": 2.5841, "score": 9, "ms": 921}
+{"game": 0, "move": 96, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9478, "outlook": 2.7041, "score": 9, "ms": 946}
+{"game": 0, "move": 97, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9676, "outlook": 2.7901, "score": 9, "ms": 910}
+{"game": 0, "move": 98, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9633, "outlook": 2.773, "score": 9, "ms": 923}
+{"game": 0, "move": 99, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9387, "outlook": 2.8207, "score": 9, "ms": 937}
+{"game": 0, "move": 100, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8288, "outlook": 2.7639, "score": 9, "ms": 1002}
+{"game": 0, "move": 101, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.3577, "outlook": 2.6115, "score": 9, "ms": 881}
+{"game": 0, "move": 102, "choice": "up", "options": ["up", "down", "right"], "confidence": 0.3915, "outlook": 2.1507, "score": 9, "ms": 809}
+{"game": 0, "move": 103, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.7436, "outlook": 2.4325, "score": 10, "ms": 761}
+{"game": 0, "move": 104, "choice": "left", "options": ["up", "left"], "confidence": 0.963, "outlook": 2.908, "score": 10, "ms": 815}
+{"game": 0, "move": 105, "choice": "left", "options": ["up", "left"], "confidence": 0.9821, "outlook": 3.0535, "score": 10, "ms": 822}
+{"game": 0, "move": 106, "choice": "up", "options": ["up", "left"], "confidence": 0.0734, "outlook": 1.3285, "score": 11, "ms": 935}
+{"game": 0, "move": 107, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.4279, "outlook": 2.2394, "score": 11, "ms": 942}
+{"game": 0, "move": 108, "choice": "right", "options": ["up", "right"], "confidence": 0.7076, "outlook": 2.4794, "score": 11, "ms": 958}
+{"game": 0, "move": 109, "choice": "right", "options": ["up", "right"], "confidence": 0.8847, "outlook": 2.2687, "score": 11, "ms": 906}
+{"game": 0, "move": 110, "choice": "right", "options": ["up", "right"], "confidence": 0.9243, "outlook": 2.2355, "score": 11, "ms": 918}
+{"game": 0, "move": 111, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.6079, "outlook": 2.0395, "score": 11, "ms": 939}
+{"game": 0, "move": 112, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4605, "outlook": 1.6193, "score": 11, "ms": 949}
+{"game": 0, "move": 113, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7472, "outlook": 3.0707, "score": 11, "ms": 974}
+{"game": 0, "move": 114, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.6838, "outlook": 3.0707, "score": 11, "ms": 938}
+{"game": 0, "move": 115, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.56, "outlook": 3.0522, "score": 11, "ms": 1019}
+{"game": 0, "move": 116, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7193, "outlook": 3.0684, "score": 11, "ms": 926}
+{"game": 0, "move": 117, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8063, "outlook": 3.1235, "score": 11, "ms": 938}
+{"game": 0, "move": 118, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7509, "outlook": 3.0415, "score": 11, "ms": 944}
+{"game": 0, "move": 119, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7187, "outlook": 3.234, "score": 11, "ms": 968}
+{"game": 0, "move": 120, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.3029, "outlook": 3.1691, "score": 11, "ms": 978}
+{"game": 0, "move": 121, "choice": "right", "options": ["left", "right"], "confidence": 0.976, "outlook": 0.8395, "score": 11, "ms": 957}
+{"game": 0, "move": 122, "choice": "up", "options": ["up"], "confidence": 1.0, "outlook": 0.748, "score": 12, "ms": 929}
+{"game": 0, "move": 123, "choice": "up", "options": ["up"], "confidence": 1.0, "outlook": 1.9262, "score": 12, "ms": 950}
+{"game": 0, "move": 124, "choice": "up", "options": ["up"], "confidence": 1.0, "outlook": 1.5959, "score": 12, "ms": 979}
+{"game": 0, "move": 125, "choice": "up", "options": ["up"], "confidence": 1.0, "outlook": 1.9735, "score": 12, "ms": 931}
+{"game": 0, "move": 126, "choice": "up", "options": ["up"], "confidence": 1.0, "outlook": 1.345, "score": 12, "ms": 969}
+{"game": 0, "move": 127, "choice": "up", "options": ["up"], "confidence": 1.0, "outlook": 1.6848, "score": 12, "ms": 914}
+{"game": 0, "move": 128, "choice": "up", "options": ["up"], "confidence": 1.0, "outlook": 1.8311, "score": 12, "ms": 951}
+{"game": 0, "move": 129, "choice": "up", "options": ["up", "left"], "confidence": 0.2859, "outlook": 2.1401, "score": 12, "ms": 940}
+{"game": 0, "move": 130, "choice": "up", "options": ["up", "left"], "confidence": 0.146, "outlook": 2.0919, "score": 12, "ms": 939}
+{"game": 0, "move": 131, "choice": "up", "options": ["up", "left"], "confidence": 0.0, "outlook": 1.85, "score": 12, "ms": 947}
+{"game": 0, "move": 132, "choice": "up", "options": ["up", "left"], "confidence": 0.0, "outlook": 1.4925, "score": 12, "ms": 964}
+{"game": 0, "move": 133, "choice": "left", "options": ["left"], "confidence": 1.0, "outlook": 0.4371, "score": 12, "ms": 936}
+{"game": 0, "move": 134, "choice": "left", "options": ["down", "left"], "confidence": 0.8483, "outlook": 2.3278, "score": 12, "ms": 969}
+{"game": 0, "move": 135, "choice": "left", "options": ["down", "left"], "confidence": 0.9128, "outlook": 2.5274, "score": 12, "ms": 1023}
+{"game": 0, "move": 136, "choice": "left", "options": ["down", "left"], "confidence": 0.9343, "outlook": 2.4564, "score": 12, "ms": 957}
+{"game": 0, "move": 137, "choice": "left", "options": ["down", "left"], "confidence": 0.963, "outlook": 2.5233, "score": 12, "ms": 960}
+{"game": 0, "move": 138, "choice": "left", "options": ["down", "left"], "confidence": 0.9243, "outlook": 2.4729, "score": 12, "ms": 964}
+{"game": 0, "move": 139, "choice": "left", "options": ["down", "left"], "confidence": 0.9243, "outlook": 2.3947, "score": 12, "ms": 961}
+{"game": 0, "move": 140, "choice": "left", "options": ["down", "left"], "confidence": 0.943, "outlook": 2.248, "score": 12, "ms": 967}
+{"game": 0, "move": 141, "choice": "left", "options": ["down", "left"], "confidence": 0.7737, "outlook": 2.049, "score": 12, "ms": 932}
+{"game": 0, "move": 142, "choice": "left", "options": ["down", "left"], "confidence": 0.2859, "outlook": 1.6922, "score": 12, "ms": 940}
+{"game": 0, "move": 143, "choice": "down", "options": ["down", "left"], "confidence": 0.2859, "outlook": 1.6462, "score": 12, "ms": 982}
+{"game": 0, "move": 144, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.948, "outlook": 3.0315, "score": 12, "ms": 951}
+{"game": 0, "move": 145, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9267, "outlook": 3.0369, "score": 12, "ms": 953}
+{"game": 0, "move": 146, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9352, "outlook": 3.01, "score": 12, "ms": 934}
+{"game": 0, "move": 147, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9413, "outlook": 2.9328, "score": 12, "ms": 943}
+{"game": 0, "move": 148, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9046, "outlook": 2.9459, "score": 12, "ms": 962}
+{"game": 0, "move": 149, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8827, "outlook": 2.8906, "score": 12, "ms": 976}
+{"game": 0, "move": 150, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8482, "outlook": 2.8874, "score": 12, "ms": 942}
+{"game": 0, "move": 151, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8688, "outlook": 2.9967, "score": 12, "ms": 974}
+{"game": 0, "move": 152, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7793, "outlook": 2.9851, "score": 12, "ms": 987}
+{"game": 0, "move": 153, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.512, "outlook": 2.9853, "score": 12, "ms": 965}
+{"game": 0, "move": 154, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.4527, "outlook": 1.8669, "score": 12, "ms": 956}
+{"game": 0, "move": 155, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.1743, "outlook": 1.5579, "score": 12, "ms": 966}
+{"game": 0, "move": 156, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.7068, "outlook": 1.9788, "score": 12, "ms": 974}
+{"game": 0, "move": 157, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.5898, "outlook": 2.0003, "score": 12, "ms": 981}
+{"game": 0, "move": 158, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.7743, "outlook": 2.0335, "score": 12, "ms": 970}
+{"game": 0, "move": 159, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.5741, "outlook": 1.9564, "score": 12, "ms": 985}
+{"game": 0, "move": 160, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.4334, "outlook": 1.7027, "score": 12, "ms": 951}
+{"game": 0, "move": 161, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.3009, "outlook": 1.6723, "score": 12, "ms": 964}
+{"game": 0, "move": 162, "choice": "left", "options": ["left", "right"], "confidence": 0.7737, "outlook": 0.3656, "score": 12, "ms": 963}
+{"game": 0, "move": 163, "choice": "left", "options": ["left"], "confidence": 1.0, "outlook": 2.5294, "score": 12, "ms": 976}
+{"game": 0, "move": 164, "choice": "left", "options": ["left"], "confidence": 1.0, "outlook": 2.6309, "score": 12, "ms": 959}
+{"game": 0, "move": 165, "choice": "left", "options": ["left"], "confidence": 1.0, "outlook": 2.7684, "score": 12, "ms": 965}
+{"game": 0, "move": 166, "choice": "left", "options": ["left"], "confidence": 1.0, "outlook": 2.8815, "score": 12, "ms": 822}
+{"game": 0, "move": 167, "choice": "left", "options": ["left"], "confidence": 1.0, "outlook": 2.7068, "score": 12, "ms": 866}
+{"game": 0, "move": 168, "choice": "left", "options": ["left"], "confidence": 1.0, "outlook": 3.2731, "score": 12, "ms": 841}
+{"game": 0, "move": 169, "choice": "up", "options": ["up", "left"], "confidence": 0.3519, "outlook": 1.3714, "score": 13, "ms": 971}
+{"game": 0, "move": 170, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.8827, "outlook": 2.5117, "score": 13, "ms": 965}
+{"game": 0, "move": 171, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.8508, "outlook": 2.9988, "score": 13, "ms": 1045}
+{"game": 0, "move": 172, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.5605, "outlook": 2.6353, "score": 13, "ms": 928}
+{"game": 0, "move": 173, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.4912, "outlook": 2.3628, "score": 13, "ms": 940}
+{"game": 0, "move": 174, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.3503, "outlook": 2.2911, "score": 13, "ms": 1011}
+{"game": 0, "move": 175, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.4992, "outlook": 2.3896, "score": 13, "ms": 924}
+{"game": 0, "move": 176, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.5901, "outlook": 2.4773, "score": 13, "ms": 966}
+{"game": 0, "move": 177, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.4061, "outlook": 2.3162, "score": 13, "ms": 922}
+{"game": 0, "move": 178, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.2981, "outlook": 2.1703, "score": 13, "ms": 1068}
+{"game": 0, "move": 179, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8684, "outlook": 2.5274, "score": 13, "ms": 997}
+{"game": 0, "move": 180, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8826, "outlook": 2.4492, "score": 13, "ms": 940}
+{"game": 0, "move": 181, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.7293, "outlook": 2.4688, "score": 13, "ms": 959}
+{"game": 0, "move": 182, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.6913, "outlook": 2.3387, "score": 13, "ms": 960}
+{"game": 0, "move": 183, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.479, "outlook": 2.1234, "score": 13, "ms": 981}
+{"game": 0, "move": 184, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.4089, "outlook": 1.9948, "score": 13, "ms": 977}
+{"game": 0, "move": 185, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.424, "outlook": 1.5244, "score": 13, "ms": 972}
+{"game": 0, "move": 186, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7392, "outlook": 2.5841, "score": 13, "ms": 979}
+{"game": 0, "move": 187, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8417, "outlook": 2.6927, "score": 13, "ms": 977}
+{"game": 0, "move": 188, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8441, "outlook": 2.6837, "score": 13, "ms": 937}
+{"game": 0, "move": 189, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8601, "outlook": 2.7249, "score": 13, "ms": 949}
+{"game": 0, "move": 190, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.2464, "outlook": 2.3958, "score": 13, "ms": 958}
+{"game": 0, "move": 191, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.3943, "outlook": 2.0254, "score": 13, "ms": 963}
+{"game": 0, "move": 192, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.9885, "outlook": 3.1258, "score": 13, "ms": 968}
+{"game": 0, "move": 193, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.9873, "outlook": 3.3938, "score": 13, "ms": 960}
+{"game": 0, "move": 194, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.889, "outlook": 2.6577, "score": 14, "ms": 964}
+{"game": 0, "move": 195, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.8547, "outlook": 2.672, "score": 14, "ms": 970}
+{"game": 0, "move": 196, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.7693, "outlook": 2.6186, "score": 14, "ms": 977}
+{"game": 0, "move": 197, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.6421, "outlook": 2.4039, "score": 14, "ms": 982}
+{"game": 0, "move": 198, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.2392, "outlook": 2.1044, "score": 14, "ms": 952}
+{"game": 0, "move": 199, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.8827, "outlook": 2.8111, "score": 14, "ms": 957}
+{"game": 1, "move": 0, "choice": "up", "options": ["up", "down", "right"], "confidence": 0.8585, "outlook": 2.0696, "score": 0, "ms": 816}
+{"game": 1, "move": 1, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6458, "outlook": 2.7432, "score": 0, "ms": 892}
+{"game": 1, "move": 2, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6046, "outlook": 2.8181, "score": 0, "ms": 871}
+{"game": 1, "move": 3, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.7799, "outlook": 2.7494, "score": 0, "ms": 846}
+{"game": 1, "move": 4, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.7508, "outlook": 2.7322, "score": 0, "ms": 836}
+{"game": 1, "move": 5, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.6453, "outlook": 2.4383, "score": 0, "ms": 820}
+{"game": 1, "move": 6, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.7804, "outlook": 2.5983, "score": 0, "ms": 914}
+{"game": 1, "move": 7, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.7516, "outlook": 2.7651, "score": 0, "ms": 881}
+{"game": 1, "move": 8, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5608, "outlook": 2.7046, "score": 0, "ms": 857}
+{"game": 1, "move": 9, "choice": "left", "options": ["left", "right"], "confidence": 0.9845, "outlook": 0.4159, "score": 0, "ms": 859}
+{"game": 1, "move": 10, "choice": "down", "options": ["down", "left"], "confidence": 0.7737, "outlook": 1.5737, "score": 1, "ms": 864}
+{"game": 1, "move": 11, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8294, "outlook": 2.5626, "score": 1, "ms": 878}
+{"game": 1, "move": 12, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.83, "outlook": 2.5634, "score": 1, "ms": 820}
+{"game": 1, "move": 13, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7196, "outlook": 2.7955, "score": 1, "ms": 995}
+{"game": 1, "move": 14, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7195, "outlook": 2.7226, "score": 1, "ms": 1008}
+{"game": 1, "move": 15, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.4127, "outlook": 2.6009, "score": 1, "ms": 1013}
+{"game": 1, "move": 16, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.4127, "outlook": 2.595, "score": 1, "ms": 998}
+{"game": 1, "move": 17, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.684, "outlook": 1.6912, "score": 1, "ms": 1006}
+{"game": 1, "move": 18, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.7191, "outlook": 2.7062, "score": 1, "ms": 993}
+{"game": 1, "move": 19, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.4637, "outlook": 2.4963, "score": 1, "ms": 897}
+{"game": 1, "move": 20, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.2981, "outlook": 1.7183, "score": 1, "ms": 867}
+{"game": 1, "move": 21, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.5132, "outlook": 2.0721, "score": 2, "ms": 886}
+{"game": 1, "move": 22, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8691, "outlook": 2.6595, "score": 2, "ms": 897}
+{"game": 1, "move": 23, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8506, "outlook": 2.6201, "score": 2, "ms": 880}
+{"game": 1, "move": 24, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.7511, "outlook": 2.6498, "score": 2, "ms": 903}
+{"game": 1, "move": 25, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8294, "outlook": 2.3211, "score": 2, "ms": 833}
+{"game": 1, "move": 26, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4119, "outlook": 1.7727, "score": 2, "ms": 866}
+{"game": 1, "move": 27, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.1984, "outlook": 1.6439, "score": 2, "ms": 911}
+{"game": 1, "move": 28, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.3593, "outlook": 0.8913, "score": 2, "ms": 897}
+{"game": 1, "move": 29, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 944}
+{"game": 1, "move": 30, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 899}
+{"game": 1, "move": 31, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 959}
+{"game": 1, "move": 32, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 1029}
+{"game": 1, "move": 33, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 860}
+{"game": 1, "move": 34, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 961}
+{"game": 1, "move": 35, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 996}
+{"game": 1, "move": 36, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 858}
+{"game": 1, "move": 37, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 959}
+{"game": 1, "move": 38, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 1014}
+{"game": 1, "move": 39, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 859}
+{"game": 1, "move": 40, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 1067}
+{"game": 1, "move": 41, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 1047}
+{"game": 1, "move": 42, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 1010}
+{"game": 1, "move": 43, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 982}
+{"game": 1, "move": 44, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 919}
+{"game": 1, "move": 45, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 929}
+{"game": 1, "move": 46, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 910}
+{"game": 1, "move": 47, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 976}
+{"game": 1, "move": 48, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 826}
+{"game": 1, "move": 49, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 989}
+{"game": 1, "move": 50, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 1058}
+{"game": 1, "move": 51, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 1025}
+{"game": 1, "move": 52, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 948}
+{"game": 1, "move": 53, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 987}
+{"game": 1, "move": 54, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 946}
+{"game": 1, "move": 55, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 868}
+{"game": 1, "move": 56, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 956}
+{"game": 1, "move": 57, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 943}
+{"game": 1, "move": 58, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 907}
+{"game": 1, "move": 59, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 934}
+{"game": 1, "move": 60, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 838}
+{"game": 1, "move": 61, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 1017}
+{"game": 1, "move": 62, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 974}
+{"game": 1, "move": 63, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 960}
+{"game": 1, "move": 64, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 926}
+{"game": 1, "move": 65, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 934}
+{"game": 1, "move": 66, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 927}
+{"game": 1, "move": 67, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 968}
+{"game": 1, "move": 68, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 954}
+{"game": 1, "move": 69, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 930}
+{"game": 1, "move": 70, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 940}
+{"game": 1, "move": 71, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 917}
+{"game": 1, "move": 72, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 892}
+{"game": 1, "move": 73, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 842}
+{"game": 1, "move": 74, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 1054}
+{"game": 1, "move": 75, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 993}
+{"game": 1, "move": 76, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 969}
+{"game": 1, "move": 77, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 982}
+{"game": 1, "move": 78, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 893}
+{"game": 1, "move": 79, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 951}
+{"game": 1, "move": 80, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 964}
+{"game": 1, "move": 81, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 923}
+{"game": 1, "move": 82, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 957}
+{"game": 1, "move": 83, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 944}
+{"game": 1, "move": 84, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 983}
+{"game": 1, "move": 85, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 908}
+{"game": 1, "move": 86, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 966}
+{"game": 1, "move": 87, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 941}
+{"game": 1, "move": 88, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 909}
+{"game": 1, "move": 89, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 959}
+{"game": 1, "move": 90, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 1044}
+{"game": 1, "move": 91, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 940}
+{"game": 1, "move": 92, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 973}
+{"game": 1, "move": 93, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 944}
+{"game": 1, "move": 94, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 777}
+{"game": 1, "move": 95, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 823}
+{"game": 1, "move": 96, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 758}
+{"game": 1, "move": 97, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 800}
+{"game": 1, "move": 98, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 808}
+{"game": 1, "move": 99, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 818}
+{"game": 1, "move": 100, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 781}
+{"game": 1, "move": 101, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 810}
+{"game": 1, "move": 102, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 809}
+{"game": 1, "move": 103, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 876}
+{"game": 1, "move": 104, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 852}
+{"game": 1, "move": 105, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 846}
+{"game": 1, "move": 106, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 879}
+{"game": 1, "move": 107, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 878}
+{"game": 1, "move": 108, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 861}
+{"game": 1, "move": 109, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 962}
+{"game": 1, "move": 110, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 1238}
+{"game": 1, "move": 111, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 940}
+{"game": 1, "move": 112, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 937}
+{"game": 1, "move": 113, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 927}
+{"game": 1, "move": 114, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 965}
+{"game": 1, "move": 115, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 898}
+{"game": 1, "move": 116, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 880}
+{"game": 1, "move": 117, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 957}
+{"game": 1, "move": 118, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 810}
+{"game": 1, "move": 119, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 956}
+{"game": 1, "move": 120, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 928}
+{"game": 1, "move": 121, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 962}
+{"game": 1, "move": 122, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 865}
+{"game": 1, "move": 123, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 948}
+{"game": 1, "move": 124, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 958}
+{"game": 1, "move": 125, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 890}
+{"game": 1, "move": 126, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 882}
+{"game": 1, "move": 127, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 984}
+{"game": 1, "move": 128, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 976}
+{"game": 1, "move": 129, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 962}
+{"game": 1, "move": 130, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 882}
+{"game": 1, "move": 131, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 1039}
+{"game": 1, "move": 132, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 904}
+{"game": 1, "move": 133, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 922}
+{"game": 1, "move": 134, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 1051}
+{"game": 1, "move": 135, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 929}
+{"game": 1, "move": 136, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 871}
+{"game": 1, "move": 137, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 889}
+{"game": 1, "move": 138, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 1004}
+{"game": 1, "move": 139, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 1178}
+{"game": 1, "move": 140, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 1055}
+{"game": 1, "move": 141, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 952}
+{"game": 1, "move": 142, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 955}
+{"game": 1, "move": 143, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 951}
+{"game": 1, "move": 144, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 971}
+{"game": 1, "move": 145, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 1123}
+{"game": 1, "move": 146, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 1008}
+{"game": 1, "move": 147, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 977}
+{"game": 1, "move": 148, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 898}
+{"game": 1, "move": 149, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 944}
+{"game": 1, "move": 150, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 947}
+{"game": 1, "move": 151, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 1041}
+{"game": 1, "move": 152, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 904}
+{"game": 1, "move": 153, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 916}
+{"game": 1, "move": 154, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 930}
+{"game": 1, "move": 155, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 1113}
+{"game": 1, "move": 156, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 959}
+{"game": 1, "move": 157, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 962}
+{"game": 1, "move": 158, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 847}
+{"game": 1, "move": 159, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 874}
+{"game": 1, "move": 160, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 843}
+{"game": 1, "move": 161, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 893}
+{"game": 1, "move": 162, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 851}
+{"game": 1, "move": 163, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 887}
+{"game": 1, "move": 164, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 970}
+{"game": 1, "move": 165, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 929}
+{"game": 1, "move": 166, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 891}
+{"game": 1, "move": 167, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 856}
+{"game": 1, "move": 168, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 847}
+{"game": 1, "move": 169, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 925}
+{"game": 1, "move": 170, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 869}
+{"game": 1, "move": 171, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 839}
+{"game": 1, "move": 172, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 841}
+{"game": 1, "move": 173, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 835}
+{"game": 1, "move": 174, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 861}
+{"game": 1, "move": 175, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 860}
+{"game": 1, "move": 176, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 837}
+{"game": 1, "move": 177, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 822}
+{"game": 1, "move": 178, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 803}
+{"game": 1, "move": 179, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 813}
+{"game": 1, "move": 180, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 844}
+{"game": 1, "move": 181, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 840}
+{"game": 1, "move": 182, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 824}
+{"game": 1, "move": 183, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 843}
+{"game": 1, "move": 184, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 799}
+{"game": 1, "move": 185, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 874}
+{"game": 1, "move": 186, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 806}
+{"game": 1, "move": 187, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 850}
+{"game": 1, "move": 188, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 857}
+{"game": 1, "move": 189, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 887}
+{"game": 1, "move": 190, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 792}
+{"game": 1, "move": 191, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 793}
+{"game": 1, "move": 192, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 901}
+{"game": 1, "move": 193, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 1109}
+{"game": 1, "move": 194, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4511, "outlook": 1.1879, "score": 2, "ms": 1043}
+{"game": 1, "move": 195, "choice": "down", "options": ["down", "right"], "confidence": 0.0, "outlook": 1.6738, "score": 2, "ms": 1078}
+{"game": 1, "move": 196, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6577, "outlook": 0.7348, "score": 2, "ms": 840}
+{"game": 1, "move": 197, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.5222, "outlook": 1.4677, "score": 2, "ms": 847}
+{"game": 1, "move": 198, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.282, "score": 2, "ms": 859}
+{"game": 1, "move": 199, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.5361, "outlook": 2.2482, "score": 2, "ms": 835}
+{"game": 2, "move": 0, "choice": "up", "options": ["up", "down", "right"], "confidence": 0.8568, "outlook": 2.0046, "score": 0, "ms": 822}
+{"game": 2, "move": 1, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.7802, "outlook": 2.7347, "score": 0, "ms": 934}
+{"game": 2, "move": 2, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.8065, "outlook": 2.6839, "score": 0, "ms": 889}
+{"game": 2, "move": 3, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6841, "outlook": 2.622, "score": 0, "ms": 919}
+{"game": 2, "move": 4, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.3045, "outlook": 2.4656, "score": 0, "ms": 811}
+{"game": 2, "move": 5, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.6461, "outlook": 2.5788, "score": 0, "ms": 852}
+{"game": 2, "move": 6, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.4126, "outlook": 2.7443, "score": 0, "ms": 916}
+{"game": 2, "move": 7, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.9193, "outlook": 1.6188, "score": 0, "ms": 871}
+{"game": 2, "move": 8, "choice": "down", "options": ["up", "down", "left"], "confidence": 0.8251, "outlook": 1.9147, "score": 1, "ms": 909}
+{"game": 2, "move": 9, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9411, "outlook": 2.6345, "score": 1, "ms": 850}
+{"game": 2, "move": 10, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9242, "outlook": 2.7859, "score": 1, "ms": 821}
+{"game": 2, "move": 11, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8695, "outlook": 2.7363, "score": 1, "ms": 972}
+{"game": 2, "move": 12, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7803, "outlook": 2.7507, "score": 1, "ms": 916}
+{"game": 2, "move": 13, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.6843, "outlook": 2.6754, "score": 1, "ms": 907}
+{"game": 2, "move": 14, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.3591, "outlook": 2.5262, "score": 1, "ms": 903}
+{"game": 2, "move": 15, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.6048, "outlook": 2.5403, "score": 1, "ms": 896}
+{"game": 2, "move": 16, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.6456, "outlook": 2.3218, "score": 1, "ms": 956}
+{"game": 2, "move": 17, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.6451, "outlook": 2.2274, "score": 1, "ms": 955}
+{"game": 2, "move": 18, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.2483, "outlook": 2.2005, "score": 1, "ms": 809}
+{"game": 2, "move": 19, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9719, "outlook": 3.1725, "score": 1, "ms": 752}
+{"game": 2, "move": 20, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.999, "outlook": 3.5885, "score": 1, "ms": 777}
+{"game": 2, "move": 21, "choice": "left", "options": ["left", "right"], "confidence": 0.5286, "outlook": 0.6933, "score": 2, "ms": 980}
+{"game": 2, "move": 22, "choice": "up", "options": ["up", "left"], "confidence": 0.0734, "outlook": 2.2343, "score": 2, "ms": 1006}
+{"game": 2, "move": 23, "choice": "up", "options": ["up", "left"], "confidence": 0.8483, "outlook": 2.8542, "score": 2, "ms": 1199}
+{"game": 2, "move": 24, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.9551, "outlook": 3.0014, "score": 2, "ms": 893}
+{"game": 2, "move": 25, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.9619, "outlook": 2.8695, "score": 2, "ms": 1101}
+{"game": 2, "move": 26, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.924, "outlook": 2.8441, "score": 2, "ms": 1082}
+{"game": 2, "move": 27, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.8855, "outlook": 2.8011, "score": 2, "ms": 1010}
+{"game": 2, "move": 28, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.806, "outlook": 2.7865, "score": 2, "ms": 1207}
+{"game": 2, "move": 29, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.8051, "outlook": 2.6505, "score": 2, "ms": 1245}
+{"game": 2, "move": 30, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6837, "outlook": 2.5728, "score": 2, "ms": 1194}
+{"game": 2, "move": 31, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.2492, "outlook": 2.4656, "score": 2, "ms": 1091}
+{"game": 2, "move": 32, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.6756, "outlook": 2.2451, "score": 2, "ms": 802}
+{"game": 2, "move": 33, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.9957, "outlook": 3.2175, "score": 2, "ms": 875}
+{"game": 2, "move": 34, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.9985, "outlook": 3.4435, "score": 2, "ms": 904}
+{"game": 2, "move": 35, "choice": "down", "options": ["up", "down", "left"], "confidence": 0.347, "outlook": 1.6263, "score": 3, "ms": 1053}
+{"game": 2, "move": 36, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9046, "outlook": 2.7, "score": 3, "ms": 889}
+{"game": 2, "move": 37, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9126, "outlook": 2.7802, "score": 3, "ms": 916}
+{"game": 2, "move": 38, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9459, "outlook": 2.6912, "score": 3, "ms": 951}
+{"game": 2, "move": 39, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.2333, "outlook": 2.3409, "score": 3, "ms": 984}
+{"game": 2, "move": 40, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.6818, "outlook": 1.8223, "score": 3, "ms": 887}
+{"game": 2, "move": 41, "choice": "down", "options": ["up", "down", "left"], "confidence": 0.74, "outlook": 0.9482, "score": 4, "ms": 1256}
+{"game": 2, "move": 42, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.8294, "outlook": 2.2896, "score": 4, "ms": 935}
+{"game": 2, "move": 43, "choice": "right", "options": ["down", "right"], "confidence": 0.99, "outlook": 3.0099, "score": 4, "ms": 977}
+{"game": 2, "move": 44, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9957, "outlook": 3.1976, "score": 4, "ms": 1034}
+{"game": 2, "move": 45, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9981, "outlook": 3.2631, "score": 4, "ms": 899}
+{"game": 2, "move": 46, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9969, "outlook": 3.2325, "score": 4, "ms": 939}
+{"game": 2, "move": 47, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9962, "outlook": 3.4917, "score": 4, "ms": 958}
+{"game": 2, "move": 48, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8993, "outlook": 2.7431, "score": 5, "ms": 833}
+{"game": 2, "move": 49, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9416, "outlook": 2.6152, "score": 5, "ms": 811}
+{"game": 2, "move": 50, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.4106, "outlook": 2.1688, "score": 5, "ms": 824}
+{"game": 2, "move": 51, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.74, "outlook": 1.1348, "score": 5, "ms": 976}
+{"game": 2, "move": 52, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.3472, "outlook": 1.729, "score": 6, "ms": 925}
+{"game": 2, "move": 53, "choice": "left", "options": ["down", "left"], "confidence": 0.943, "outlook": 2.8258, "score": 6, "ms": 795}
+{"game": 2, "move": 54, "choice": "left", "options": ["down", "left"], "confidence": 0.9243, "outlook": 2.5142, "score": 6, "ms": 783}
+{"game": 2, "move": 55, "choice": "left", "options": ["down", "left"], "confidence": 0.9343, "outlook": 2.4003, "score": 6, "ms": 789}
+{"game": 2, "move": 56, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.6832, "outlook": 2.509, "score": 6, "ms": 821}
+{"game": 2, "move": 57, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.5592, "outlook": 2.4203, "score": 6, "ms": 854}
+{"game": 2, "move": 58, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.41, "outlook": 2.3358, "score": 6, "ms": 849}
+{"game": 2, "move": 59, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.933, "outlook": 2.9426, "score": 6, "ms": 941}
+{"game": 2, "move": 60, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.9499, "outlook": 2.9459, "score": 6, "ms": 904}
+{"game": 2, "move": 61, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.913, "outlook": 2.9491, "score": 6, "ms": 886}
+{"game": 2, "move": 62, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.9, "outlook": 2.8164, "score": 6, "ms": 884}
+{"game": 2, "move": 63, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.7801, "outlook": 2.694, "score": 6, "ms": 966}
+{"game": 2, "move": 64, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.3043, "outlook": 2.5204, "score": 6, "ms": 1052}
+{"game": 2, "move": 65, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.605, "outlook": 2.807, "score": 6, "ms": 922}
+{"game": 2, "move": 66, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.8906, "outlook": 1.5213, "score": 6, "ms": 861}
+{"game": 2, "move": 67, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.3593, "outlook": 1.7699, "score": 7, "ms": 814}
+{"game": 2, "move": 68, "choice": "right", "options": ["left", "right"], "confidence": 0.8483, "outlook": 0.4242, "score": 7, "ms": 866}
+{"game": 2, "move": 69, "choice": "right", "options": ["right"], "confidence": 1.0, "outlook": 2.6754, "score": 7, "ms": 1097}
+{"game": 2, "move": 70, "choice": "right", "options": ["down", "right"], "confidence": 0.943, "outlook": 2.5829, "score": 7, "ms": 993}
+{"game": 2, "move": 71, "choice": "right", "options": ["down", "right"], "confidence": 0.8677, "outlook": 2.4721, "score": 7, "ms": 892}
+{"game": 2, "move": 72, "choice": "right", "options": ["down", "right"], "confidence": 0.6263, "outlook": 2.4174, "score": 7, "ms": 916}
+{"game": 2, "move": 73, "choice": "down", "options": ["down", "right"], "confidence": 0.4146, "outlook": 1.7433, "score": 7, "ms": 967}
+{"game": 2, "move": 74, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7194, "outlook": 3.0632, "score": 7, "ms": 1078}
+{"game": 2, "move": 75, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7804, "outlook": 3.0541, "score": 7, "ms": 1188}
+{"game": 2, "move": 76, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.6048, "outlook": 2.6717, "score": 7, "ms": 961}
+{"game": 2, "move": 77, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.7372, "outlook": 1.7772, "score": 7, "ms": 1203}
+{"game": 2, "move": 78, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.4836, "outlook": 2.2146, "score": 8, "ms": 1172}
+{"game": 2, "move": 79, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.5131, "outlook": 2.1507, "score": 8, "ms": 1118}
+{"game": 2, "move": 80, "choice": "up", "options": ["up", "down", "right"], "confidence": 0.3472, "outlook": 1.3513, "score": 8, "ms": 1081}
+{"game": 2, "move": 81, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.8067, "outlook": 2.7486, "score": 8, "ms": 924}
+{"game": 2, "move": 82, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6463, "outlook": 1.7719, "score": 9, "ms": 908}
+{"game": 2, "move": 83, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.424, "outlook": 1.9399, "score": 9, "ms": 998}
+{"game": 2, "move": 84, "choice": "left", "options": ["left", "right"], "confidence": 0.9128, "outlook": 0.2747, "score": 9, "ms": 870}
+{"game": 2, "move": 85, "choice": "left", "options": ["down", "left"], "confidence": 0.8483, "outlook": 2.1922, "score": 9, "ms": 957}
+{"game": 2, "move": 86, "choice": "left", "options": ["down", "left"], "confidence": 0.8016, "outlook": 2.1609, "score": 9, "ms": 916}
+{"game": 2, "move": 87, "choice": "left", "options": ["down", "left"], "confidence": 0.8677, "outlook": 2.4149, "score": 9, "ms": 877}
+{"game": 2, "move": 88, "choice": "left", "options": ["down", "left"], "confidence": 0.8677, "outlook": 2.1878, "score": 9, "ms": 961}
+{"game": 2, "move": 89, "choice": "left", "options": ["down", "left"], "confidence": 0.6263, "outlook": 2.107, "score": 9, "ms": 1118}
+{"game": 2, "move": 90, "choice": "left", "options": ["down", "left"], "confidence": 0.7737, "outlook": 1.9673, "score": 9, "ms": 951}
+{"game": 2, "move": 91, "choice": "left", "options": ["down", "left"], "confidence": 0.6689, "outlook": 1.6608, "score": 9, "ms": 991}
+{"game": 2, "move": 92, "choice": "left", "options": ["down", "left"], "confidence": 0.4736, "outlook": 1.5599, "score": 9, "ms": 938}
+{"game": 2, "move": 93, "choice": "down", "options": ["down", "left"], "confidence": 0.5795, "outlook": 1.3265, "score": 9, "ms": 991}
+{"game": 2, "move": 94, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.942, "outlook": 2.9573, "score": 9, "ms": 982}
+{"game": 2, "move": 95, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9204, "outlook": 2.9459, "score": 9, "ms": 766}
+{"game": 2, "move": 96, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9533, "outlook": 2.9123, "score": 9, "ms": 901}
+{"game": 2, "move": 97, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.9411, "outlook": 2.8651, "score": 9, "ms": 917}
+{"game": 2, "move": 98, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.8998, "outlook": 2.8481, "score": 9, "ms": 892}
+{"game": 2, "move": 99, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7804, "outlook": 2.7398, "score": 9, "ms": 908}
+{"game": 2, "move": 100, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.6048, "outlook": 2.5818, "score": 9, "ms": 892}
+{"game": 2, "move": 101, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.6049, "outlook": 2.559, "score": 9, "ms": 881}
+{"game": 2, "move": 102, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.4631, "outlook": 2.4568, "score": 9, "ms": 887}
+{"game": 2, "move": 103, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9423, "outlook": 2.8542, "score": 9, "ms": 887}
+{"game": 2, "move": 104, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8851, "outlook": 2.6917, "score": 9, "ms": 874}
+{"game": 2, "move": 105, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8997, "outlook": 2.7527, "score": 9, "ms": 903}
+{"game": 2, "move": 106, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8295, "outlook": 2.7817, "score": 9, "ms": 934}
+{"game": 2, "move": 107, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.5537, "outlook": 2.4215, "score": 9, "ms": 935}
+{"game": 2, "move": 108, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.4328, "outlook": 1.8669, "score": 9, "ms": 1080}
+{"game": 2, "move": 109, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.7196, "outlook": 1.6079, "score": 9, "ms": 1100}
+{"game": 2, "move": 110, "choice": "left", "options": ["down", "left"], "confidence": 0.8016, "outlook": 2.2579, "score": 10, "ms": 1014}
+{"game": 2, "move": 111, "choice": "left", "options": ["down", "left"], "confidence": 0.8847, "outlook": 2.135, "score": 10, "ms": 944}
+{"game": 2, "move": 112, "choice": "left", "options": ["down", "left"], "confidence": 0.7424, "outlook": 2.1716, "score": 10, "ms": 888}
+{"game": 2, "move": 113, "choice": "left", "options": ["down", "left"], "confidence": 0.5795, "outlook": 2.0392, "score": 10, "ms": 946}
+{"game": 2, "move": 114, "choice": "left", "options": ["down", "left"], "confidence": 0.2859, "outlook": 1.6368, "score": 10, "ms": 921}
+{"game": 2, "move": 115, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.7973, "outlook": 1.4354, "score": 10, "ms": 1062}
+{"game": 2, "move": 116, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.9308, "outlook": 3.0102, "score": 10, "ms": 1150}
+{"game": 2, "move": 117, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.8667, "outlook": 3.0577, "score": 10, "ms": 1242}
+{"game": 2, "move": 118, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.8298, "outlook": 2.9868, "score": 10, "ms": 1137}
+{"game": 2, "move": 119, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.8064, "outlook": 3.0347, "score": 10, "ms": 1222}
+{"game": 2, "move": 120, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.7194, "outlook": 3.004, "score": 10, "ms": 1189}
+{"game": 2, "move": 121, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6049, "outlook": 2.9052, "score": 10, "ms": 1013}
+{"game": 2, "move": 122, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.7191, "outlook": 2.7322, "score": 10, "ms": 1046}
+{"game": 2, "move": 123, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.5135, "outlook": 2.6672, "score": 10, "ms": 914}
+{"game": 2, "move": 124, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.464, "outlook": 2.5565, "score": 10, "ms": 909}
+{"game": 2, "move": 125, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8696, "outlook": 2.9352, "score": 10, "ms": 1116}
+{"game": 2, "move": 126, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.6846, "outlook": 2.9352, "score": 10, "ms": 889}
+{"game": 2, "move": 127, "choice": "up", "options": ["up", "down", "right"], "confidence": 0.6463, "outlook": 2.7417, "score": 10, "ms": 881}
+{"game": 2, "move": 128, "choice": "right", "options": ["left", "right"], "confidence": 0.976, "outlook": 0.379, "score": 10, "ms": 872}
+{"game": 2, "move": 129, "choice": "right", "options": ["down", "right"], "confidence": 0.9506, "outlook": 2.5575, "score": 11, "ms": 870}
+{"game": 2, "move": 130, "choice": "right", "options": ["down", "right"], "confidence": 0.943, "outlook": 2.3174, "score": 11, "ms": 867}
+{"game": 2, "move": 131, "choice": "right", "options": ["down", "right"], "confidence": 0.9128, "outlook": 2.2014, "score": 11, "ms": 1060}
+{"game": 2, "move": 132, "choice": "right", "options": ["down", "right"], "confidence": 0.7076, "outlook": 2.0718, "score": 11, "ms": 1096}
+{"game": 2, "move": 133, "choice": "right", "options": ["down", "right"], "confidence": 0.2171, "outlook": 1.5398, "score": 11, "ms": 1119}
+{"game": 2, "move": 134, "choice": "down", "options": ["down", "right"], "confidence": 0.9243, "outlook": 1.1694, "score": 11, "ms": 919}
+{"game": 2, "move": 135, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7192, "outlook": 3.0979, "score": 11, "ms": 929}
+{"game": 2, "move": 136, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.6842, "outlook": 3.1278, "score": 11, "ms": 1084}
+{"game": 2, "move": 137, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.6461, "outlook": 2.778, "score": 11, "ms": 925}
+{"game": 2, "move": 138, "choice": "down", "options": ["up", "down"], "confidence": 0.9723, "outlook": 1.0244, "score": 11, "ms": 902}
+{"game": 2, "move": 139, "choice": "down", "options": ["down", "left"], "confidence": 0.8677, "outlook": 2.789, "score": 12, "ms": 902}
+{"game": 2, "move": 140, "choice": "left", "options": ["down", "left"], "confidence": 0.3519, "outlook": 2.1625, "score": 12, "ms": 902}
+{"game": 2, "move": 141, "choice": "down", "options": ["up", "down", "left"], "confidence": 0.6367, "outlook": 1.847, "score": 12, "ms": 897}
+{"game": 2, "move": 142, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.791, "outlook": 2.6019, "score": 13, "ms": 941}
+{"game": 2, "move": 143, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.5489, "outlook": 2.2983, "score": 13, "ms": 888}
+{"game": 2, "move": 144, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.7154, "outlook": 2.5194, "score": 13, "ms": 899}
+{"game": 2, "move": 145, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.4558, "outlook": 2.3035, "score": 13, "ms": 900}
+{"game": 2, "move": 146, "choice": "left", "options": ["down", "left", "right"], "confidence": 0.399, "outlook": 1.6867, "score": 13, "ms": 916}
+{"game": 2, "move": 147, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.9595, "outlook": 2.6119, "score": 13, "ms": 916}
+{"game": 2, "move": 148, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.9231, "outlook": 2.6186, "score": 13, "ms": 918}
+{"game": 2, "move": 149, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.9225, "outlook": 2.756, "score": 13, "ms": 908}
+{"game": 2, "move": 150, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.3572, "outlook": 2.5054, "score": 13, "ms": 911}
+{"game": 2, "move": 151, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.6418, "outlook": 1.8648, "score": 13, "ms": 899}
+{"game": 2, "move": 152, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.8959, "outlook": 2.6392, "score": 14, "ms": 932}
+{"game": 2, "move": 153, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.8965, "outlook": 2.5575, "score": 14, "ms": 892}
+{"game": 2, "move": 154, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.7168, "outlook": 2.5274, "score": 14, "ms": 970}
+{"game": 2, "move": 155, "choice": "left", "options": ["up", "down", "left"], "confidence": 0.4066, "outlook": 2.3516, "score": 14, "ms": 926}
+{"game": 2, "move": 156, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.2277, "outlook": 1.9071, "score": 14, "ms": 1158}
+{"game": 2, "move": 157, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.4106, "outlook": 2.9571, "score": 14, "ms": 1106}
+{"game": 2, "move": 158, "choice": "left", "options": ["up", "left", "right"], "confidence": 0.96, "outlook": 2.4245, "score": 14, "ms": 920}
+{"game": 2, "move": 159, "choice": "up", "options": ["up", "down"], "confidence": 0.4736, "outlook": 0.4202, "score": 15, "ms": 1099}
+{"game": 2, "move": 160, "choice": "right", "options": ["up", "right"], "confidence": 0.4736, "outlook": 2.4578, "score": 15, "ms": 1095}
+{"game": 2, "move": 161, "choice": "right", "options": ["up", "right"], "confidence": 0.9845, "outlook": 2.8055, "score": 15, "ms": 1254}
+{"game": 2, "move": 162, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9781, "outlook": 2.7443, "score": 15, "ms": 1253}
+{"game": 2, "move": 163, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9682, "outlook": 2.756, "score": 15, "ms": 1139}
+{"game": 2, "move": 164, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9734, "outlook": 2.7527, "score": 15, "ms": 1067}
+{"game": 2, "move": 165, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9649, "outlook": 2.7017, "score": 15, "ms": 1101}
+{"game": 2, "move": 166, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9533, "outlook": 2.6792, "score": 15, "ms": 1147}
+{"game": 2, "move": 167, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9604, "outlook": 2.6469, "score": 15, "ms": 1219}
+{"game": 2, "move": 168, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8986, "outlook": 2.5667, "score": 15, "ms": 1239}
+{"game": 2, "move": 169, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.2926, "outlook": 1.7433, "score": 15, "ms": 1034}
+{"game": 2, "move": 170, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.1214, "outlook": 2.0339, "score": 16, "ms": 908}
+{"game": 2, "move": 171, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.4967, "outlook": 2.3524, "score": 16, "ms": 1020}
+{"game": 2, "move": 172, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.4437, "outlook": 2.4514, "score": 16, "ms": 1191}
+{"game": 2, "move": 173, "choice": "down", "options": ["down", "left", "right"], "confidence": 0.1743, "outlook": 1.7614, "score": 16, "ms": 1132}
+{"game": 2, "move": 174, "choice": "left", "options": ["left", "right"], "confidence": 0.8016, "outlook": 0.547, "score": 16, "ms": 1221}
+{"game": 2, "move": 175, "choice": "up", "options": ["up", "left"], "confidence": 0.3519, "outlook": 1.7338, "score": 16, "ms": 1004}
+{"game": 2, "move": 176, "choice": "up", "options": ["up", "left"], "confidence": 0.8997, "outlook": 2.2967, "score": 16, "ms": 952}
+{"game": 2, "move": 177, "choice": "up", "options": ["up", "left"], "confidence": 0.9243, "outlook": 2.5096, "score": 16, "ms": 952}
+{"game": 2, "move": 178, "choice": "up", "options": ["up", "left"], "confidence": 0.963, "outlook": 2.5868, "score": 16, "ms": 1065}
+{"game": 2, "move": 179, "choice": "left", "options": ["left"], "confidence": 1.0, "outlook": 2.672, "score": 16, "ms": 1031}
+{"game": 2, "move": 180, "choice": "left", "options": ["down", "left"], "confidence": 0.6263, "outlook": 1.9172, "score": 16, "ms": 850}
+{"game": 2, "move": 181, "choice": "left", "options": ["down", "left"], "confidence": 0.8016, "outlook": 2.2155, "score": 16, "ms": 885}
+{"game": 2, "move": 182, "choice": "left", "options": ["down", "left"], "confidence": 0.6263, "outlook": 2.2148, "score": 16, "ms": 890}
+{"game": 2, "move": 183, "choice": "up", "options": ["up", "down", "left"], "confidence": 0.3913, "outlook": 1.9266, "score": 16, "ms": 897}
+{"game": 2, "move": 184, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.5322, "outlook": 2.5841, "score": 16, "ms": 933}
+{"game": 2, "move": 185, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.6022, "outlook": 2.8484, "score": 16, "ms": 925}
+{"game": 2, "move": 186, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.249, "outlook": 2.468, "score": 16, "ms": 901}
+{"game": 2, "move": 187, "choice": "up", "options": ["up", "left", "right"], "confidence": 0.2534, "outlook": 2.491, "score": 16, "ms": 836}
+{"game": 2, "move": 188, "choice": "right", "options": ["up", "left", "right"], "confidence": 0.3844, "outlook": 2.2901, "score": 16, "ms": 867}
+{"game": 2, "move": 189, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9586, "outlook": 2.8744, "score": 16, "ms": 884}
+{"game": 2, "move": 190, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.9403, "outlook": 2.7825, "score": 16, "ms": 911}
+{"game": 2, "move": 191, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.8684, "outlook": 2.5868, "score": 16, "ms": 978}
+{"game": 2, "move": 192, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.7655, "outlook": 2.4891, "score": 16, "ms": 957}
+{"game": 2, "move": 193, "choice": "right", "options": ["up", "down", "right"], "confidence": 0.6696, "outlook": 2.1573, "score": 16, "ms": 896}
+{"game": 2, "move": 194, "choice": "down", "options": ["up", "down", "right"], "confidence": 0.517, "outlook": 1.4584, "score": 16, "ms": 973}
+{"game": 2, "move": 195, "choice": "right", "options": ["down", "left", "right"], "confidence": 0.4511, "outlook": 2.8956, "score": 16, "ms": 990}
+{"game": 2, "move": 196, "choice": "down", "options": ["up", "down"], "confidence": 0.976, "outlook": 1.1573, "score": 16, "ms": 1018}
+{"game": 2, "move": 197, "choice": "down", "options": ["down", "left"], "confidence": 0.8263, "outlook": 2.5868, "score": 17, "ms": 932}
+{"game": 2, "move": 198, "choice": "down", "options": ["down", "left"], "confidence": 0.7076, "outlook": 2.3297, "score": 17, "ms": 996}
+{"game": 2, "move": 199, "choice": "down", "options": ["down", "left"], "confidence": 0.4736, "outlook": 2.0724, "score": 17, "ms": 1025}

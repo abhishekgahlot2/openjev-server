@@ -1,0 +1,1014 @@
+[
+ {
+  "deal": 0,
+  "swap": 0,
+  "board": "J\u2665 3\u2665 9\u2666 7\u2660 7\u2665",
+  "hole": [
+   "5\u2660 2\u2663",
+   "7\u2663 5\u2665"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": -1,
+   "rulebot": 1
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A fold (bet 1)"
+  ]
+ },
+ {
+  "deal": 0,
+  "swap": 1,
+  "board": "J\u2665 3\u2665 9\u2666 7\u2660 7\u2665",
+  "hole": [
+   "5\u2660 2\u2663",
+   "7\u2663 5\u2665"
+  ],
+  "result": {
+   "rulebot": -2,
+   "OpenJev MLX 4-bit": 2
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A call (bet 2)",
+   "B check (bet 2)",
+   "--- flop: J\u2665 3\u2665 9\u2666",
+   "B check",
+   "A check",
+   "--- turn: J\u2665 3\u2665 9\u2666 7\u2660",
+   "B check",
+   "A check",
+   "--- river: J\u2665 3\u2665 9\u2666 7\u2660 7\u2665",
+   "B check",
+   "A check"
+  ]
+ },
+ {
+  "deal": 1,
+  "swap": 0,
+  "board": "2\u2666 K\u2666 6\u2663 6\u2666 9\u2660",
+  "hole": [
+   "K\u2660 5\u2660",
+   "9\u2663 8\u2666"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": 4,
+   "rulebot": -4
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B call (bet 2)",
+   "A check (bet 2)",
+   "--- flop: 2\u2666 K\u2666 6\u2663",
+   "A check",
+   "B check",
+   "--- turn: 2\u2666 K\u2666 6\u2663 6\u2666",
+   "A check",
+   "B check",
+   "--- river: 2\u2666 K\u2666 6\u2663 6\u2666 9\u2660",
+   "A check",
+   "B raise half pot (bet 2)",
+   "A call (bet 2)"
+  ]
+ },
+ {
+  "deal": 1,
+  "swap": 1,
+  "board": "2\u2666 K\u2666 6\u2663 6\u2666 9\u2660",
+  "hole": [
+   "K\u2660 5\u2660",
+   "9\u2663 8\u2666"
+  ],
+  "result": {
+   "rulebot": 4,
+   "OpenJev MLX 4-bit": -4
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise half pot (bet 4)",
+   "A call (bet 4)",
+   "--- flop: 2\u2666 K\u2666 6\u2663",
+   "A raise pot (bet 8)",
+   "B fold"
+  ]
+ },
+ {
+  "deal": 2,
+  "swap": 0,
+  "board": "T\u2665 K\u2663 2\u2660 5\u2663 T\u2660",
+  "hole": [
+   "6\u2660 5\u2666",
+   "7\u2663 2\u2666"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": -1,
+   "rulebot": 1
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A fold (bet 1)"
+  ]
+ },
+ {
+  "deal": 2,
+  "swap": 1,
+  "board": "T\u2665 K\u2663 2\u2660 5\u2663 T\u2660",
+  "hole": [
+   "6\u2660 5\u2666",
+   "7\u2663 2\u2666"
+  ],
+  "result": {
+   "rulebot": 8,
+   "OpenJev MLX 4-bit": -8
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A call (bet 2)",
+   "B check (bet 2)",
+   "--- flop: T\u2665 K\u2663 2\u2660",
+   "B check",
+   "A check",
+   "--- turn: T\u2665 K\u2663 2\u2660 5\u2663",
+   "B check",
+   "A raise half pot (bet 2)",
+   "B call (bet 2)",
+   "--- river: T\u2665 K\u2663 2\u2660 5\u2663 T\u2660",
+   "B check",
+   "A raise half pot (bet 4)",
+   "B call (bet 4)"
+  ]
+ },
+ {
+  "deal": 3,
+  "swap": 0,
+  "board": "6\u2666 Q\u2663 2\u2660 5\u2666 7\u2663",
+  "hole": [
+   "3\u2665 K\u2660",
+   "K\u2665 Q\u2660"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": -2,
+   "rulebot": 2
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise half pot (bet 4)",
+   "A fold (bet 2)"
+  ]
+ },
+ {
+  "deal": 3,
+  "swap": 1,
+  "board": "6\u2666 Q\u2663 2\u2660 5\u2666 7\u2663",
+  "hole": [
+   "3\u2665 K\u2660",
+   "K\u2665 Q\u2660"
+  ],
+  "result": {
+   "rulebot": -24,
+   "OpenJev MLX 4-bit": 24
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise pot (bet 6)",
+   "A call (bet 6)",
+   "--- flop: 6\u2666 Q\u2663 2\u2660",
+   "A check",
+   "B raise half pot (bet 6)",
+   "A call (bet 6)",
+   "--- turn: 6\u2666 Q\u2663 2\u2660 5\u2666",
+   "A check",
+   "B raise half pot (bet 12)",
+   "A call (bet 12)",
+   "--- river: 6\u2666 Q\u2663 2\u2660 5\u2666 7\u2663",
+   "A check",
+   "B raise half pot (bet 24)",
+   "A fold"
+  ]
+ },
+ {
+  "deal": 4,
+  "swap": 0,
+  "board": "J\u2666 4\u2660 T\u2660 3\u2660 9\u2660",
+  "hole": [
+   "A\u2666 4\u2663",
+   "9\u2665 6\u2665"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": 4,
+   "rulebot": -4
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A raise half pot (bet 4)",
+   "B call (bet 4)",
+   "--- flop: J\u2666 4\u2660 T\u2660",
+   "B check",
+   "A raise half pot (bet 4)",
+   "B fold"
+  ]
+ },
+ {
+  "deal": 4,
+  "swap": 1,
+  "board": "J\u2666 4\u2660 T\u2660 3\u2660 9\u2660",
+  "hole": [
+   "A\u2666 4\u2663",
+   "9\u2665 6\u2665"
+  ],
+  "result": {
+   "rulebot": -2,
+   "OpenJev MLX 4-bit": 2
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A call (bet 2)",
+   "B check (bet 2)",
+   "--- flop: J\u2666 4\u2660 T\u2660",
+   "B check",
+   "A check",
+   "--- turn: J\u2666 4\u2660 T\u2660 3\u2660",
+   "B check",
+   "A check",
+   "--- river: J\u2666 4\u2660 T\u2660 3\u2660 9\u2660",
+   "B check",
+   "A check"
+  ]
+ },
+ {
+  "deal": 5,
+  "swap": 0,
+  "board": "9\u2665 9\u2660 J\u2666 2\u2663 7\u2663",
+  "hole": [
+   "T\u2665 6\u2665",
+   "9\u2663 A\u2663"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": -2,
+   "rulebot": 2
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise half pot (bet 4)",
+   "A fold (bet 2)"
+  ]
+ },
+ {
+  "deal": 5,
+  "swap": 1,
+  "board": "9\u2665 9\u2660 J\u2666 2\u2663 7\u2663",
+  "hole": [
+   "T\u2665 6\u2665",
+   "9\u2663 A\u2663"
+  ],
+  "result": {
+   "rulebot": -18,
+   "OpenJev MLX 4-bit": 18
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise pot (bet 6)",
+   "A call (bet 6)",
+   "--- flop: 9\u2665 9\u2660 J\u2666",
+   "A check",
+   "B raise pot (bet 12)",
+   "A call (bet 12)",
+   "--- turn: 9\u2665 9\u2660 J\u2666 2\u2663",
+   "A check",
+   "B raise pot (bet 36)",
+   "A fold"
+  ]
+ },
+ {
+  "deal": 6,
+  "swap": 0,
+  "board": "8\u2666 4\u2660 5\u2666 T\u2665 A\u2663",
+  "hole": [
+   "5\u2660 J\u2666",
+   "9\u2666 6\u2666"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": -1,
+   "rulebot": 1
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A fold (bet 1)"
+  ]
+ },
+ {
+  "deal": 6,
+  "swap": 1,
+  "board": "8\u2666 4\u2660 5\u2666 T\u2665 A\u2663",
+  "hole": [
+   "5\u2660 J\u2666",
+   "9\u2666 6\u2666"
+  ],
+  "result": {
+   "rulebot": 8,
+   "OpenJev MLX 4-bit": -8
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A call (bet 2)",
+   "B check (bet 2)",
+   "--- flop: 8\u2666 4\u2660 5\u2666",
+   "B check",
+   "A raise half pot (bet 2)",
+   "B call (bet 2)",
+   "--- turn: 8\u2666 4\u2660 5\u2666 T\u2665",
+   "B check",
+   "A raise half pot (bet 4)",
+   "B call (bet 4)",
+   "--- river: 8\u2666 4\u2660 5\u2666 T\u2665 A\u2663",
+   "B check",
+   "A check"
+  ]
+ },
+ {
+  "deal": 7,
+  "swap": 0,
+  "board": "8\u2663 J\u2666 5\u2666 6\u2660 J\u2663",
+  "hole": [
+   "7\u2665 Q\u2665",
+   "4\u2665 T\u2663"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": 2,
+   "rulebot": -2
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B call (bet 2)",
+   "A check (bet 2)",
+   "--- flop: 8\u2663 J\u2666 5\u2666",
+   "A check",
+   "B check",
+   "--- turn: 8\u2663 J\u2666 5\u2666 6\u2660",
+   "A check",
+   "B check",
+   "--- river: 8\u2663 J\u2666 5\u2666 6\u2660 J\u2663",
+   "A check",
+   "B check"
+  ]
+ },
+ {
+  "deal": 7,
+  "swap": 1,
+  "board": "8\u2663 J\u2666 5\u2666 6\u2660 J\u2663",
+  "hole": [
+   "7\u2665 Q\u2665",
+   "4\u2665 T\u2663"
+  ],
+  "result": {
+   "rulebot": 1,
+   "OpenJev MLX 4-bit": -1
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B fold (bet 1)"
+  ]
+ },
+ {
+  "deal": 8,
+  "swap": 0,
+  "board": "T\u2666 J\u2663 9\u2663 A\u2665 4\u2665",
+  "hole": [
+   "4\u2663 3\u2665",
+   "8\u2663 3\u2666"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": -1,
+   "rulebot": 1
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A fold (bet 1)"
+  ]
+ },
+ {
+  "deal": 8,
+  "swap": 1,
+  "board": "T\u2666 J\u2663 9\u2663 A\u2665 4\u2665",
+  "hole": [
+   "4\u2663 3\u2665",
+   "8\u2663 3\u2666"
+  ],
+  "result": {
+   "rulebot": 2,
+   "OpenJev MLX 4-bit": -2
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A call (bet 2)",
+   "B check (bet 2)",
+   "--- flop: T\u2666 J\u2663 9\u2663",
+   "B check",
+   "A check",
+   "--- turn: T\u2666 J\u2663 9\u2663 A\u2665",
+   "B check",
+   "A check",
+   "--- river: T\u2666 J\u2663 9\u2663 A\u2665 4\u2665",
+   "B check",
+   "A check"
+  ]
+ },
+ {
+  "deal": 9,
+  "swap": 0,
+  "board": "Q\u2663 4\u2660 4\u2663 J\u2666 J\u2663",
+  "hole": [
+   "6\u2666 A\u2663",
+   "9\u2660 K\u2663"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": 2,
+   "rulebot": -2
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B call (bet 2)",
+   "A check (bet 2)",
+   "--- flop: Q\u2663 4\u2660 4\u2663",
+   "A check",
+   "B check",
+   "--- turn: Q\u2663 4\u2660 4\u2663 J\u2666",
+   "A check",
+   "B check",
+   "--- river: Q\u2663 4\u2660 4\u2663 J\u2666 J\u2663",
+   "A check",
+   "B check"
+  ]
+ },
+ {
+  "deal": 9,
+  "swap": 1,
+  "board": "Q\u2663 4\u2660 4\u2663 J\u2666 J\u2663",
+  "hole": [
+   "6\u2666 A\u2663",
+   "9\u2660 K\u2663"
+  ],
+  "result": {
+   "rulebot": 16,
+   "OpenJev MLX 4-bit": -16
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise half pot (bet 4)",
+   "A raise half pot (bet 8)",
+   "B raise half pot (bet 16)",
+   "A call (bet 16)",
+   "--- flop: Q\u2663 4\u2660 4\u2663",
+   "A check",
+   "B check",
+   "--- turn: Q\u2663 4\u2660 4\u2663 J\u2666",
+   "A check",
+   "B check",
+   "--- river: Q\u2663 4\u2660 4\u2663 J\u2666 J\u2663",
+   "A check",
+   "B check"
+  ]
+ },
+ {
+  "deal": 10,
+  "swap": 0,
+  "board": "J\u2666 2\u2665 5\u2665 T\u2663 5\u2666",
+  "hole": [
+   "4\u2663 8\u2660",
+   "K\u2660 9\u2665"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": -1,
+   "rulebot": 1
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A fold (bet 1)"
+  ]
+ },
+ {
+  "deal": 10,
+  "swap": 1,
+  "board": "J\u2666 2\u2665 5\u2665 T\u2663 5\u2666",
+  "hole": [
+   "4\u2663 8\u2660",
+   "K\u2660 9\u2665"
+  ],
+  "result": {
+   "rulebot": -2,
+   "OpenJev MLX 4-bit": 2
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A call (bet 2)",
+   "B check (bet 2)",
+   "--- flop: J\u2666 2\u2665 5\u2665",
+   "B check",
+   "A check",
+   "--- turn: J\u2666 2\u2665 5\u2665 T\u2663",
+   "B check",
+   "A check",
+   "--- river: J\u2666 2\u2665 5\u2665 T\u2663 5\u2666",
+   "B check",
+   "A check"
+  ]
+ },
+ {
+  "deal": 11,
+  "swap": 0,
+  "board": "8\u2660 4\u2663 2\u2665 K\u2663 7\u2666",
+  "hole": [
+   "3\u2660 A\u2660",
+   "T\u2663 Q\u2660"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": 4,
+   "rulebot": -4
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise half pot (bet 4)",
+   "A call (bet 4)",
+   "--- flop: 8\u2660 4\u2663 2\u2665",
+   "A check",
+   "B check",
+   "--- turn: 8\u2660 4\u2663 2\u2665 K\u2663",
+   "A check",
+   "B check",
+   "--- river: 8\u2660 4\u2663 2\u2665 K\u2663 7\u2666",
+   "A check",
+   "B check"
+  ]
+ },
+ {
+  "deal": 11,
+  "swap": 1,
+  "board": "8\u2660 4\u2663 2\u2665 K\u2663 7\u2666",
+  "hole": [
+   "3\u2660 A\u2660",
+   "T\u2663 Q\u2660"
+  ],
+  "result": {
+   "rulebot": -16,
+   "OpenJev MLX 4-bit": 16
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise half pot (bet 4)",
+   "A call (bet 4)",
+   "--- flop: 8\u2660 4\u2663 2\u2665",
+   "A check",
+   "B raise half pot (bet 4)",
+   "A call (bet 4)",
+   "--- turn: 8\u2660 4\u2663 2\u2665 K\u2663",
+   "A check",
+   "B raise half pot (bet 8)",
+   "A call (bet 8)",
+   "--- river: 8\u2660 4\u2663 2\u2665 K\u2663 7\u2666",
+   "A check",
+   "B raise half pot (bet 16)",
+   "A fold"
+  ]
+ },
+ {
+  "deal": 12,
+  "swap": 0,
+  "board": "8\u2660 2\u2666 T\u2663 K\u2666 A\u2665",
+  "hole": [
+   "J\u2660 A\u2660",
+   "Q\u2660 6\u2666"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": 48,
+   "rulebot": -48
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A raise pot (bet 6)",
+   "B call (bet 6)",
+   "--- flop: 8\u2660 2\u2666 T\u2663",
+   "B check",
+   "A raise half pot (bet 6)",
+   "B call (bet 6)",
+   "--- turn: 8\u2660 2\u2666 T\u2663 K\u2666",
+   "B check",
+   "A raise half pot (bet 12)",
+   "B call (bet 12)",
+   "--- river: 8\u2660 2\u2666 T\u2663 K\u2666 A\u2665",
+   "B check",
+   "A raise half pot (bet 24)",
+   "B call (bet 24)"
+  ]
+ },
+ {
+  "deal": 12,
+  "swap": 1,
+  "board": "8\u2660 2\u2666 T\u2663 K\u2666 A\u2665",
+  "hole": [
+   "J\u2660 A\u2660",
+   "Q\u2660 6\u2666"
+  ],
+  "result": {
+   "rulebot": 2,
+   "OpenJev MLX 4-bit": -2
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A call (bet 2)",
+   "B check (bet 2)",
+   "--- flop: 8\u2660 2\u2666 T\u2663",
+   "B check",
+   "A check",
+   "--- turn: 8\u2660 2\u2666 T\u2663 K\u2666",
+   "B check",
+   "A check",
+   "--- river: 8\u2660 2\u2666 T\u2663 K\u2666 A\u2665",
+   "B check",
+   "A raise pot (bet 4)",
+   "B fold"
+  ]
+ },
+ {
+  "deal": 13,
+  "swap": 0,
+  "board": "7\u2666 2\u2660 8\u2666 6\u2665 J\u2665",
+  "hole": [
+   "T\u2665 6\u2660",
+   "J\u2660 6\u2666"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": -2,
+   "rulebot": 2
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B call (bet 2)",
+   "A check (bet 2)",
+   "--- flop: 7\u2666 2\u2660 8\u2666",
+   "A check",
+   "B check",
+   "--- turn: 7\u2666 2\u2660 8\u2666 6\u2665",
+   "A check",
+   "B check",
+   "--- river: 7\u2666 2\u2660 8\u2666 6\u2665 J\u2665",
+   "A check",
+   "B raise pot (bet 4)",
+   "A fold"
+  ]
+ },
+ {
+  "deal": 13,
+  "swap": 1,
+  "board": "7\u2666 2\u2660 8\u2666 6\u2665 J\u2665",
+  "hole": [
+   "T\u2665 6\u2660",
+   "J\u2660 6\u2666"
+  ],
+  "result": {
+   "rulebot": 1,
+   "OpenJev MLX 4-bit": -1
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B fold (bet 1)"
+  ]
+ },
+ {
+  "deal": 14,
+  "swap": 0,
+  "board": "8\u2665 Q\u2665 K\u2663 7\u2666 A\u2663",
+  "hole": [
+   "2\u2665 2\u2663",
+   "T\u2663 2\u2666"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": 2,
+   "rulebot": -2
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A raise pot (bet 6)",
+   "B fold (bet 2)"
+  ]
+ },
+ {
+  "deal": 14,
+  "swap": 1,
+  "board": "8\u2665 Q\u2665 K\u2663 7\u2666 A\u2663",
+  "hole": [
+   "2\u2665 2\u2663",
+   "T\u2663 2\u2666"
+  ],
+  "result": {
+   "rulebot": 2,
+   "OpenJev MLX 4-bit": -2
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A call (bet 2)",
+   "B check (bet 2)",
+   "--- flop: 8\u2665 Q\u2665 K\u2663",
+   "B check",
+   "A check",
+   "--- turn: 8\u2665 Q\u2665 K\u2663 7\u2666",
+   "B check",
+   "A check",
+   "--- river: 8\u2665 Q\u2665 K\u2663 7\u2666 A\u2663",
+   "B check",
+   "A check"
+  ]
+ },
+ {
+  "deal": 15,
+  "swap": 0,
+  "board": "3\u2666 3\u2660 5\u2665 5\u2663 A\u2660",
+  "hole": [
+   "2\u2660 7\u2666",
+   "9\u2663 Q\u2666"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": -2,
+   "rulebot": 2
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise half pot (bet 4)",
+   "A fold (bet 2)"
+  ]
+ },
+ {
+  "deal": 15,
+  "swap": 1,
+  "board": "3\u2666 3\u2660 5\u2665 5\u2663 A\u2660",
+  "hole": [
+   "2\u2660 7\u2666",
+   "9\u2663 Q\u2666"
+  ],
+  "result": {
+   "rulebot": 0,
+   "OpenJev MLX 4-bit": 0
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise half pot (bet 4)",
+   "A call (bet 4)",
+   "--- flop: 3\u2666 3\u2660 5\u2665",
+   "A check",
+   "B check",
+   "--- turn: 3\u2666 3\u2660 5\u2665 5\u2663",
+   "A check",
+   "B check",
+   "--- river: 3\u2666 3\u2660 5\u2665 5\u2663 A\u2660",
+   "A check",
+   "B check"
+  ]
+ },
+ {
+  "deal": 16,
+  "swap": 0,
+  "board": "Q\u2666 4\u2660 7\u2660 9\u2663 9\u2665",
+  "hole": [
+   "8\u2665 Q\u2660",
+   "6\u2665 8\u2663"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": 16,
+   "rulebot": -16
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A raise half pot (bet 4)",
+   "B call (bet 4)",
+   "--- flop: Q\u2666 4\u2660 7\u2660",
+   "B check",
+   "A raise half pot (bet 4)",
+   "B call (bet 4)",
+   "--- turn: Q\u2666 4\u2660 7\u2660 9\u2663",
+   "B check",
+   "A raise half pot (bet 8)",
+   "B call (bet 8)",
+   "--- river: Q\u2666 4\u2660 7\u2660 9\u2663 9\u2665",
+   "B check",
+   "A raise half pot (bet 16)",
+   "B fold"
+  ]
+ },
+ {
+  "deal": 16,
+  "swap": 1,
+  "board": "Q\u2666 4\u2660 7\u2660 9\u2663 9\u2665",
+  "hole": [
+   "8\u2665 Q\u2660",
+   "6\u2665 8\u2663"
+  ],
+  "result": {
+   "rulebot": 2,
+   "OpenJev MLX 4-bit": -2
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A call (bet 2)",
+   "B check (bet 2)",
+   "--- flop: Q\u2666 4\u2660 7\u2660",
+   "B check",
+   "A raise pot (bet 4)",
+   "B fold"
+  ]
+ },
+ {
+  "deal": 17,
+  "swap": 0,
+  "board": "K\u2666 6\u2665 8\u2665 4\u2666 J\u2663",
+  "hole": [
+   "T\u2666 T\u2665",
+   "3\u2666 Q\u2660"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": 6,
+   "rulebot": -6
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B call (bet 2)",
+   "A raise pot (bet 6)",
+   "B call (bet 6)",
+   "--- flop: K\u2666 6\u2665 8\u2665",
+   "A check",
+   "B check",
+   "--- turn: K\u2666 6\u2665 8\u2665 4\u2666",
+   "A check",
+   "B check",
+   "--- river: K\u2666 6\u2665 8\u2665 4\u2666 J\u2663",
+   "A check",
+   "B check"
+  ]
+ },
+ {
+  "deal": 17,
+  "swap": 1,
+  "board": "K\u2666 6\u2665 8\u2665 4\u2666 J\u2663",
+  "hole": [
+   "T\u2666 T\u2665",
+   "3\u2666 Q\u2660"
+  ],
+  "result": {
+   "rulebot": 4,
+   "OpenJev MLX 4-bit": -4
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise half pot (bet 4)",
+   "A raise half pot (bet 8)",
+   "B fold (bet 4)"
+  ]
+ },
+ {
+  "deal": 18,
+  "swap": 0,
+  "board": "J\u2660 7\u2663 8\u2663 3\u2660 K\u2663",
+  "hole": [
+   "5\u2660 5\u2663",
+   "9\u2660 9\u2666"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": -200,
+   "rulebot": 200
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A raise pot (bet 6)",
+   "B raise pot (bet 18)",
+   "A raise pot (bet 54)",
+   "B call (bet 54)",
+   "--- flop: J\u2660 7\u2663 8\u2663",
+   "B raise half pot (bet 54)",
+   "A call (bet 54)",
+   "--- turn: J\u2660 7\u2663 8\u2663 3\u2660",
+   "B check",
+   "A all in (bet 92)",
+   "B call (bet 92)",
+   "--- river: J\u2660 7\u2663 8\u2663 3\u2660 K\u2663"
+  ]
+ },
+ {
+  "deal": 18,
+  "swap": 1,
+  "board": "J\u2660 7\u2663 8\u2663 3\u2660 K\u2663",
+  "hole": [
+   "5\u2660 5\u2663",
+   "9\u2660 9\u2666"
+  ],
+  "result": {
+   "rulebot": -36,
+   "OpenJev MLX 4-bit": 36
+  },
+  "history": [
+   "A posts small blind 1",
+   "B posts big blind 2",
+   "A call (bet 2)",
+   "B raise pot (bet 6)",
+   "A raise half pot (bet 12)",
+   "B raise pot (bet 36)",
+   "A call (bet 36)",
+   "--- flop: J\u2660 7\u2663 8\u2663",
+   "B check",
+   "A check",
+   "--- turn: J\u2660 7\u2663 8\u2663 3\u2660",
+   "B check",
+   "A check",
+   "--- river: J\u2660 7\u2663 8\u2663 3\u2660 K\u2663",
+   "B check",
+   "A check"
+  ]
+ },
+ {
+  "deal": 19,
+  "swap": 0,
+  "board": "6\u2660 K\u2660 2\u2665 9\u2665 2\u2663",
+  "hole": [
+   "6\u2665 3\u2665",
+   "8\u2663 Q\u2660"
+  ],
+  "result": {
+   "OpenJev MLX 4-bit": 2,
+   "rulebot": -2
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B call (bet 2)",
+   "A check (bet 2)",
+   "--- flop: 6\u2660 K\u2660 2\u2665",
+   "A check",
+   "B check",
+   "--- turn: 6\u2660 K\u2660 2\u2665 9\u2665",
+   "A check",
+   "B check",
+   "--- river: 6\u2660 K\u2660 2\u2665 9\u2665 2\u2663",
+   "A check",
+   "B check"
+  ]
+ },
+ {
+  "deal": 19,
+  "swap": 1,
+  "board": "6\u2660 K\u2660 2\u2665 9\u2665 2\u2663",
+  "hole": [
+   "6\u2665 3\u2665",
+   "8\u2663 Q\u2660"
+  ],
+  "result": {
+   "rulebot": 8,
+   "OpenJev MLX 4-bit": -8
+  },
+  "history": [
+   "B posts small blind 1",
+   "A posts big blind 2",
+   "B raise half pot (bet 4)",
+   "A call (bet 4)",
+   "--- flop: 6\u2660 K\u2660 2\u2665",
+   "A raise half pot (bet 4)",
+   "B call (bet 4)",
+   "--- turn: 6\u2660 K\u2660 2\u2665 9\u2665",
+   "A raise pot (bet 16)",
+   "B fold"
+  ]
+ }
+]

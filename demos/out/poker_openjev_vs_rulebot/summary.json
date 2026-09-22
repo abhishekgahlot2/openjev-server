@@ -1,0 +1,12 @@
+{
+ "deals": 20,
+ "hands": 40,
+ "chips": {
+  "OpenJev MLX 4-bit": -81,
+  "rulebot": 81
+ },
+ "OpenJev MLX 4-bit": {
+  "decisions": 127,
+  "avg_ms": 1679
+ }
+}

@@ -1,0 +1,218 @@
+{
+  "recorded_utc_date": "2026-09-20",
+  "mode": "DOM/text; video capture does not mean screenshots were sent to the model",
+  "placement": "Browser and inference on the same existing GPU server; loopback API requests",
+  "timing_scope": "Task timers and video begin after initial page readiness. Browser startup is separate. Waiting during the recorded workflow is retained. These are two demonstrations, not comparative performance benchmarks.",
+  "playback_rate": 1,
+  "cuts": 0,
+  "attempts": 2,
+  "model_identity_unchanged": true,
+  "source_identity_unchanged": true,
+  "source_sha256": {
+    "release_dom/candidates/parallel_discovery_v1/jev_ultrafast/questions.py": "66a7054b85040b949e1757311257ea0c5a843c635f9a40c99f6d15ad660fb422",
+    "release_dom/candidates/parallel_discovery_v1/jev_ultrafast/agent.py": "02f382496c219454c4bc07706390e56278f7d5e169773f0823660fa65aaffce6",
+    "release_dom/candidates/parallel_discovery_v1/jev_ultrafast/model.py": "d14ecdd60cb51d1bc6413c5eae04c8a09982b1060fb291c0a2e6c3bb73f745a4",
+    "release_dom/candidates/parallel_discovery_v1/jev_ultrafast/browser.py": "899a3bb08244e2ca5f0e6ec4c798c45325ff8cfe59e903cd965aa93ccaa8d27c",
+    "release_dom/candidates/parallel_discovery_v1/jev_ultrafast/demo.py": "a0cfb10909b370efb284cbbe16bdb4b7e7e06ba6385827404169027645a1d8a4",
+    "release_dom/candidates/parallel_discovery_v1/jev_ultrafast/__init__.py": "60f025b8d24465e2c0f7a3547d43b8020fd8843de7b6cb3f892ef63f5548cf63",
+    "release_dom/candidates/parallel_discovery_v1/jev_ultrafast/snapshot.js": "514ce650ea93c7509e4f9aee988aa51bcbbe333f329df0ec17c2190d49dbdb6f",
+    "release_dom/loop_qa_demo/workflow_worker.py": "8f43963f1896671711337edc00292688f47a2a84a60570c31d1f5dff4642aabc",
+    "release_dom/loop_qa_demo/workflow_verifiers.py": "2e40da6f6b38784021200de8661cfd719afee4923b1c36e2a1e00ba4137c3986",
+    "release_dom/loop_qa_demo/browser_workflows.tasks.json": "6725f1fabf35fcf70a7cbbc5d6979decf744f9c1fc6e052cc45947da4ab1e609",
+    "release_dom/loop_qa_demo/colocated_workflow.py": "ddda0bbc23ab10ff22372660dd933a384284fa9267c4b54d76af38583d839381",
+    "release_dom/run.py": "0d2ae8dab0f8d23c960714e9867b22ec6f91ed5cad42aeb9e4f2e9df3e190591"
+  },
+  "browser_startup_ms": {
+    "google-flights-madrid-lisbon": 26765,
+    "bstack-iphone-cart": null
+  },
+  "runs": [
+    {
+      "task": "google-flights-madrid-lisbon",
+      "input_mode": "dom_text",
+      "passed": true,
+      "checks": {
+        "date": true,
+        "destination": true,
+        "one_way": true,
+        "origin": true,
+        "search_page": true,
+        "visible_results": true,
+        "year": true
+      },
+      "task_ms_after_page_ready": 23433,
+      "browser_actions": 10,
+      "decision_calls": 11,
+      "typing_calls": 2,
+      "http_ms": 5297,
+      "http_attempts": [
+        {
+          "attempt": 1,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 318
+        },
+        {
+          "attempt": 2,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 175
+        },
+        {
+          "attempt": 3,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 318
+        },
+        {
+          "attempt": 4,
+          "kind": "text_helper",
+          "status_code": 200,
+          "wall_ms": 250
+        },
+        {
+          "attempt": 5,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 375
+        },
+        {
+          "attempt": 6,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 312
+        },
+        {
+          "attempt": 7,
+          "kind": "text_helper",
+          "status_code": 200,
+          "wall_ms": 273
+        },
+        {
+          "attempt": 8,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 293
+        },
+        {
+          "attempt": 9,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 334
+        },
+        {
+          "attempt": 10,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 644
+        },
+        {
+          "attempt": 11,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 1049
+        },
+        {
+          "attempt": 12,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 351
+        },
+        {
+          "attempt": 13,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 605
+        }
+      ],
+      "browser_observation_ms": 14783,
+      "browser_action_ms": 1079,
+      "recording_seconds": 24.215921,
+      "initial_encoding_status": "complete",
+      "raw_result_sha256": "9ebebf352d8e171e288be74fb4fcd8f9ca7302ce1d29ea3172ceb2d80dded415",
+      "video": {
+        "file": "recording.mp4",
+        "bytes": 787154,
+        "sha256": "c0bd64a69d31901146aa12290892f13cefce1c3ca8498c0d2cb84c210978ec5b",
+        "ffprobe_duration_s": 24.24,
+        "encode_ms": 2051
+      }
+    },
+    {
+      "task": "bstack-iphone-cart",
+      "input_mode": "dom_text",
+      "passed": true,
+      "checks": {
+        "apple_filter_checked": true,
+        "cart_action_recorded": true,
+        "cart_item_visible": true,
+        "checkout_not_opened": true,
+        "filter_action_recorded": true,
+        "storefront": true,
+        "subtotal_visible": true
+      },
+      "task_ms_after_page_ready": 2826,
+      "browser_actions": 2,
+      "decision_calls": 3,
+      "typing_calls": 0,
+      "http_ms": 985,
+      "http_attempts": [
+        {
+          "attempt": 1,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 340
+        },
+        {
+          "attempt": 2,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 334
+        },
+        {
+          "attempt": 3,
+          "kind": "decision",
+          "status_code": 200,
+          "wall_ms": 311
+        }
+      ],
+      "browser_observation_ms": 1203,
+      "browser_action_ms": 48,
+      "recording_seconds": 3.412314,
+      "initial_encoding_status": "failed",
+      "raw_result_sha256": "d29097a79d9746b0380d600b535a4362d3c1ecb6cb070ce67e301cf573188cb9",
+      "video": {
+        "file": "recording.recovered.mp4",
+        "sha256": "382c3fb9577002c99519d9efa05f4528c1a11a5d4b0e06db1af7366c2619d9e8",
+        "bytes": 271707,
+        "width": 1120,
+        "height": 780,
+        "pixel_format": "yuvj420p",
+        "encoded_frames": 52,
+        "note": "The final source frame is repeated once by ffconcat so its declared final duration is retained.",
+        "ffprobe_duration_s": 3.413,
+        "duration_delta_s": 0.000686,
+        "timing_validation": "pass",
+        "decode_validation": "pass: ffmpeg framemd5 decoded all 52 video frames",
+        "packet_validation": "pass: all 52 input packet PTS and DTS values are strictly increasing from 0.000s through 3.412s",
+        "null_muxer_note": "ffmpeg -f null reports duplicate output DTS because the null muxer quantizes rapid VFR frames onto its own coarser clock; the MP4 input packets are strictly monotonic and all frames decode",
+        "visual_validation": "pass: first frame is top-aligned on a white 1120x780 canvas; final frame visibly shows iPhone 12, Apple, quantity 1, and $799 subtotal"
+      },
+      "encoding_recovery": {
+        "cause": "The first Chrome screencast frame was emitted at 1120x637 during compositor viewport stabilization. Its odd height made libx264 reject the original concat stream before the following 50 frames at 1120x780 could encode.",
+        "canvas": {
+          "canvas_width": 1120,
+          "canvas_height": 780,
+          "filter": "pad=1120:780:(ow-iw)/2:0:color=white",
+          "vertical_alignment": "top",
+          "padding_color": "white",
+          "cropped": false,
+          "stretched": false
+        },
+        "capture_times_changed": false,
+        "recovery_receipt_sha256": "f4cba95b2c78bb6252456f12c44f69a33e598cb898ccc57a1018ca09ca5bbc41",
+        "packet_timestamps_strictly_monotonic": true
+      }
+    }
+  ]
+}

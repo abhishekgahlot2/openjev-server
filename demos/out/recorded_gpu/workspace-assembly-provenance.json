@@ -1,0 +1,33 @@
+{
+  "description": "Fictional business records, real OpenJev responses in a working sample application. A demonstration, not an accuracy or comparative latency benchmark.",
+  "demo": "assembly",
+  "playback_rate": 1,
+  "cuts": false,
+  "recording_seconds": 6.96,
+  "endpoint_identity_stable": true,
+  "source_hashes": {
+    "server.py": "506167eff256efdfaf30834930f978ad6b4c15d051643418fb12b5918f01badb",
+    "app.html": "6a2838a8ce1c2ccf81aa5bf20ed1d8733fedfd7e4d1ac14a55865cf6a57ce538",
+    "record.mjs": "c0c7cf01ee25b6f92cfee1eb88c2819570e5bfcb025a9eea91fffaf3faa84b49",
+    "capture_live.py": "a320850f2cdf74726c50b03fa8a3de6462a5056c266c9e673f65ad3f63e075ee",
+    "self_check.py": "37783c6d59197a67c183d7fb13cae1dbd4194645ad199aeb391cc45a4318df08",
+    "showcase_data.py": "a7cc78b6a653492afacaad17f6fca5140ca75749be328fb6c36bf0b5e97042dd",
+    "workspace.html": "536d59294413031a423b825f30ddb2dcbff68dd1e476a1502f90e9e15252ef64"
+  },
+  "raw_manifest_sha256": "1caee40bc19b4cecffd004567f3c799c5bde3040b5d26c6b75116654cd0f4196",
+  "video_sha256": "8e7ca155cb63445fd72c954e59377d360a848c81c2ef626bdf4c8f828dc42e98",
+  "poster_sha256": "4fc140cc7578f753aede08e7d8e6249ed8ce0a52c2d13e7eafd346bc242fbc69",
+  "started_at": "2026-09-20T19:21:24.324Z",
+  "requests": 2,
+  "typed_fields": 8,
+  "concurrency": 1,
+  "api_ms": [
+    898,
+    876
+  ],
+  "request_to_view_ms": [
+    908,
+    878
+  ],
+  "between_requests_hold_seconds": 1.5
+}

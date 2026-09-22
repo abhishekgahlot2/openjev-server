@@ -1,0 +1,28 @@
+{
+ "cases": 200,
+ "gold_distribution": {
+  "deny": 87,
+  "partial_refund": 23,
+  "replacement": 23,
+  "full_refund": 39,
+  "store_credit": 28
+ },
+ "baselines": {
+  "majority_class": {
+   "label": "deny",
+   "accuracy": 0.435
+  },
+  "uniform_random": 0.2
+ },
+ "days_stated": {
+  "n": 200,
+  "outcome_accuracy": 0.935,
+  "approval_accuracy": 0.965
+ },
+ "calendar_dates": {
+  "n": 200,
+  "outcome_accuracy": 0.88,
+  "approval_accuracy": 0.975
+ },
+ "avg_ms": 1839
+}

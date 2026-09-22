@@ -1,0 +1,11 @@
+{
+ "dataset": "banking77 test (mteb/banking77 mirror)",
+ "messages": 300,
+ "labels": 77,
+ "accuracy": 0.78,
+ "top3_accuracy": 0.9233,
+ "macro_f1": 0.7671,
+ "majority_baseline": 0.0267,
+ "avg_ms": 2546,
+ "messages_per_second": 0.39
+}

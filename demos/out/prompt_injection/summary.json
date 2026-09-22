@@ -1,0 +1,11 @@
+{
+ "messages": 662,
+ "positives": 263,
+ "accuracy_at_0.5": 0.9502,
+ "roc_auc": 0.9949,
+ "ece_10_bins": 0.0525,
+ "recall_at_2pct_false_alarm": 0.9772,
+ "threshold_at_2pct_false_alarm": 0.0885,
+ "majority_baseline": 0.6027,
+ "avg_ms": 339
+}

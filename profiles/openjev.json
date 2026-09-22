@@ -1,0 +1,15 @@
+{
+  "name": "openjev",
+  "description": "OpenJev 27B as published: the constants behind every number on the model cards (10,000-question text comparison, screenshot checks, format validations).",
+  "temp": 0.85,
+  "noul_t": 1.829074,
+  "noul_bias": 0.0,
+  "perms": 1,
+  "instr_style": "pyrepr",
+  "stagger": true,
+  "stagger_min_chars": 16000,
+  "compact": false,
+  "compact_cap": 0,
+  "layout": "",
+  "pad": 0
+}

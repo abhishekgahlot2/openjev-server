@@ -1,0 +1,57 @@
+{
+ "rows": 60,
+ "predicates": 8,
+ "row_predicate_accuracy": 0.9208,
+ "per_predicate": {
+  "damaged_or_broken": {
+   "precision": 0.708,
+   "recall": 1.0,
+   "accuracy": 0.883,
+   "positives": 17
+  },
+  "premium_over_500": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0,
+   "positives": 1
+  },
+  "delivery_problem": {
+   "precision": 0.741,
+   "recall": 1.0,
+   "accuracy": 0.883,
+   "positives": 20
+  },
+  "recent_30d": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0,
+   "positives": 19
+  },
+  "eu_customer": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0,
+   "positives": 24
+  },
+  "billing": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0,
+   "positives": 9
+  },
+  "electronics_under_200": {
+   "precision": 0.95,
+   "recall": 1.0,
+   "accuracy": 0.983,
+   "positives": 19
+  },
+  "needs_replacement": {
+   "precision": 0.587,
+   "recall": 0.871,
+   "accuracy": 0.617,
+   "positives": 31
+  }
+ },
+ "avg_ms_per_row": 1771,
+ "predicates_per_second": 4.5
+}
